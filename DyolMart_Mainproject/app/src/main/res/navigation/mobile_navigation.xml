@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.dyolmart.FragmentPages.Fragment_Home"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.dyolmart.FragmentPages.Fragment_Categories"
+        android:label="@string/allcat"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/nav_myorder"
+        android:name="com.dyolmart.FragmentPages.Fragment_Myorder"
+        android:label="@string/MyOrders"
+        tools:layout="@layout/fragment_myorder" />
+
+    <fragment
+        android:id="@+id/nav_mycart"
+        android:name="com.dyolmart.FragmentPages.Fragment_Mycart"
+        android:label="@string/Mycart"
+        tools:layout="@layout/fragment_mycart" />
+
+    <fragment
+        android:id="@+id/nav_myaccount"
+        android:name="com.dyolmart.FragmentPages.Fragment_Myaccount"
+        android:label="@string/MyAccount"
+        tools:layout="@layout/fragment_myaccount" />
+
+    <fragment
+        android:id="@+id/nav_mywishlist"
+        android:name="com.dyolmart.FragmentPages.Fragment_Mywhislist"
+        android:label="@string/MyWishlist"
+        tools:layout="@layout/fragment_mywishlist" />
+    <fragment
+        android:id="@+id/nav_mynotification"
+        android:name="com.dyolmart.FragmentPages.Fragment_Mynotification"
+        android:label="@string/MyNotifycations"
+       tools:layout="@layout/fragment_mynotification" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.dyolmart.FragmentPages.Fragment_Help"
+        android:label="@string/Help"
+       tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/nav_legal"
+        android:name="com.dyolmart.FragmentPages.Fragment_Legal"
+        android:label="@string/Legal"
+        tools:layout="@layout/fragment_legal" />
+    <fragment
+        android:id="@+id/nav_clientlogin"
+        android:name="com.dyolmart.FragmentPages.Fragment_ClientHomePage"
+        android:label="@string/SelleronHypermart"
+        tools:layout="@layout/fragment_clienthomepage" />
+
+
+</navigation>

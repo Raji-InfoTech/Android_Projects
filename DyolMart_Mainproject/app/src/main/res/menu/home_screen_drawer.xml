@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:anddroid="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/all_category"
+            android:title="@string/allcat" />
+        <item
+            android:id="@+id/nav_myorder"
+            android:icon="@drawable/ic_myorder"
+            android:title="@string/MyOrders"/>
+        <item
+            android:id="@+id/nav_mycart"
+            android:icon="@drawable/cart"
+            android:title="@string/Mycart" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic__account"
+            android:title="@string/MyAccount" />
+        <item
+            android:id="@+id/nav_mywishlist"
+            android:icon="@drawable/ic_whislist"
+            android:title="@string/MyWishlist" />
+        <item
+            android:id="@+id/nav_mynotification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/MyNotifycations" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/Help" />
+
+        <item
+            android:id="@+id/nav_legal"
+            android:icon="@drawable/ic_legal"
+            android:title="@string/Legal" />
+        <item
+            android:id="@+id/nav_clientlogin"
+            android:icon="@drawable/ic_seller"
+            android:title="@string/SelleronHypermart" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,493 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.dyolmart"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:7:5-79
+12-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:8:5-67
+13-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:9:5-80
+14-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:10:5-81
+15-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:11:5-79
+16-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:12:5-81
+17-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:13:5-69
+18-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:13:22-66
+19    <uses-permission android:name="android.permission.SEND_SMS" />
+19-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:14:5-67
+19-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:14:22-64
+20    <uses-permission android:name="android.permission.READ_SMS" />
+20-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:15:5-67
+20-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.WRITE_SMS" />
+21-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:16:5-68
+21-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:16:22-65
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:8:5-67
+22-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:8:22-64
+23    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+23-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:18:5-20:47
+23-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:19:9-61
+24    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+24-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:21:5-81
+24-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:21:22-78
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:22:5-75
+25-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:22:22-72
+26    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+26-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:23:5-70
+26-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:23:22-67
+27    <uses-permission android:name="android.permission.READ_CONTACTS" />
+27-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:24:5-72
+27-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:24:22-69
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:7:5-79
+28-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:7:22-76
+29    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+29-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:26:5-78
+29-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:26:22-75
+30    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+30-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:27:5-71
+30-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:27:22-68
+31    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+31-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:28:5-79
+31-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:28:22-76
+32
+33    <dist:module dist:instant="true" />
+33-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:30:5-40
+33-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:30:18-37
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\093fefaa9b92cc8891649f8a6fb059a9\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:5-68
+35-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\093fefaa9b92cc8891649f8a6fb059a9\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:22-65
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+37
+38    <application
+38-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:32:5-101:19
+39        android:allowBackup="true"
+39-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:33:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.3.1] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f3d364c4591b4da0386e5d8846d9d728\core-1.3.1\AndroidManifest.xml:24:18-86
+41        android:debuggable="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:34:9-43
+43        android:label="@string/app_name"
+43-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:35:9-41
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:36:9-54
+45        android:supportsRtl="true"
+45-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:37:9-35
+46        android:testOnly="true"
+47        android:theme="@style/AppTheme" >
+47-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:38:9-40
+48        <activity android:name="com.dyolmart.Invoice" />
+48-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:40:9-54
+48-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:40:19-42
+49        <activity
+49-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:41:9-43:59
+50            android:name="com.dyolmart.Searchbar"
+50-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:42:13-38
+51            android:theme="@style/AppTheme.NoActionBar" />
+51-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:43:13-56
+52        <activity android:name="com.dyolmart.Homebannerad_Shop" />
+52-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:44:9-55
+52-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:44:19-52
+53        <activity
+53-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:45:9-47:59
+54            android:name="com.dyolmart.HomeScreen"
+54-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:46:13-39
+55            android:theme="@style/AppTheme.NoActionBar" />
+55-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:47:13-56
+56        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Watches" />
+56-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:48:9-71
+56-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:48:19-68
+57        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Sports" />
+57-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:49:9-70
+57-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:49:19-67
+58        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Spares" />
+58-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:50:9-70
+58-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:50:19-67
+59        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Shoes" />
+59-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:51:9-69
+59-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:51:19-66
+60        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Mobile" />
+60-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:52:9-70
+60-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:52:19-67
+61        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Lappc" />
+61-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:53:9-69
+61-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:53:19-66
+62        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Fashion" />
+62-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:54:9-71
+62-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:54:19-68
+63        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Beauty" />
+63-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:55:9-70
+63-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:55:19-67
+64        <activity android:name="com.dyolmart.Findnextpage_MyWishlist" />
+64-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:56:9-61
+64-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:56:19-58
+65        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Accessories" />
+65-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:57:9-75
+65-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:57:19-72
+66        <activity android:name="com.dyolmart.FindnextPage.Findnextpage_Book" />
+66-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:58:9-68
+66-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:58:19-65
+67        <activity android:name="com.dyolmart.AllCatalogue.Home_Accessories" />
+67-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:59:9-67
+67-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:59:19-64
+68        <activity android:name="com.dyolmart.AllCatalogue.Home_Beauty" />
+68-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:60:9-62
+68-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:60:19-59
+69        <activity android:name="com.dyolmart.AllCatalogue.Home_Books" />
+69-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:61:9-61
+69-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:61:19-58
+70        <activity android:name="com.dyolmart.AllCatalogue.Home_Fashion" />
+70-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:62:9-63
+70-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:62:19-60
+71        <activity android:name="com.dyolmart.AllCatalogue.Home_Lappc" />
+71-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:63:9-61
+71-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:63:19-58
+72        <activity android:name="com.dyolmart.AllCatalogue.Home_Mobile" />
+72-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:64:9-62
+72-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:64:19-59
+73        <activity android:name="com.dyolmart.AllCatalogue.Home_Shoes" />
+73-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:65:9-61
+73-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:65:19-58
+74        <activity android:name="com.dyolmart.OrderDetailsActivity" />
+74-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:66:9-58
+74-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:66:19-55
+75        <activity android:name="com.dyolmart.AllCatalogue.Home_BannerShops" />
+75-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:67:9-67
+75-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:67:19-64
+76        <activity android:name="com.dyolmart.AllCatalogue.Home_Spare" />
+76-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:68:9-61
+76-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:68:19-58
+77        <activity android:name="com.dyolmart.AllCatalogue.Home_Sports" />
+77-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:69:9-62
+77-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:69:19-59
+78        <activity android:name="com.dyolmart.AllCatalogue.Home_Watches" />
+78-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:70:9-63
+78-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:70:19-60
+79        <activity android:name="com.dyolmart.MyAddressesActivity" />
+79-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:71:9-57
+79-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:71:19-54
+80        <activity android:name="com.dyolmart.ReviewRating" />
+80-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:72:9-50
+80-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:72:19-47
+81        <activity android:name="com.dyolmart.AddAddressActivity" />
+81-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:73:9-56
+81-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:73:19-53
+82        <activity android:name="com.dyolmart.RazorPay_Form" />
+82-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:74:9-51
+82-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:74:19-48
+83        <activity android:name="com.dyolmart.Payment_Form" />
+83-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:75:9-50
+83-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:75:19-47
+84        <activity android:name="com.dyolmart.Findnextpage_Mycart" />
+84-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:76:9-57
+84-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:76:19-54
+85        <activity android:name="com.dyolmart.GrantPermission" />
+85-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:77:9-53
+85-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:77:19-50
+86        <activity android:name="com.dyolmart.RequestPermissionWarning" />
+86-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:78:9-62
+86-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:78:19-59
+87        <activity
+87-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:79:9-81:59
+88            android:name="com.dyolmart.OTP_verifyform"
+88-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:80:13-43
+89            android:theme="@style/AppTheme.NoActionBar" />
+89-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:81:13-56
+90        <activity
+90-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:82:9-84:59
+91            android:name="com.dyolmart.Customer_Login"
+91-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:83:13-43
+92            android:theme="@style/AppTheme.NoActionBar" />
+92-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:84:13-56
+93        <activity
+93-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:85:9-87:59
+94            android:name="com.dyolmart.MainActivity"
+94-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:86:13-41
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:87:13-56
+96        <activity
+96-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:88:9-96:20
+97            android:name="com.dyolmart.SplashScreen"
+97-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:89:13-41
+98            android:theme="@style/AppTheme.NoActionBar" >
+98-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:90:13-56
+99            <intent-filter>
+99-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:91:13-95:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:92:17-69
+100-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:92:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:94:17-77
+102-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:94:27-74
+103            </intent-filter>
+104        </activity>
+105
+106        <meta-data
+106-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:98:9-100:55
+107            android:name="com.razorpay.ApiKey"
+107-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:99:13-47
+108            android:value="rzp_live_NZF7c9Rl5aYjpM" />
+108-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:100:13-52
+109
+110        <activity
+110-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:27:9-44:20
+111            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+111-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:28:13-80
+112            android:excludeFromRecents="true"
+112-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:29:13-46
+113            android:exported="true"
+113-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:30:13-36
+114            android:launchMode="singleTask"
+114-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:31:13-44
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+115-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:32:13-72
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:33:13-43:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
+117-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
+120                <category android:name="android.intent.category.BROWSABLE" />
+120-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
+120-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
+121
+122                <data
+122-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
+123                    android:host="firebase.auth"
+123-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
+124                    android:path="/"
+124-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
+125                    android:scheme="genericidp" />
+125-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
+126            </intent-filter>
+127        </activity>
+128        <activity
+128-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:45:9-62:20
+129            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+129-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:46:13-79
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:47:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:48:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:49:13-44
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+133-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:50:13-72
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:51:13-61:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:17-69
+135-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:34:25-66
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:17-78
+138-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:37:27-75
+139
+140                <data
+140-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
+141                    android:host="firebase.auth"
+141-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
+142                    android:path="/"
+142-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:41:21-37
+143                    android:scheme="recaptcha" />
+143-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
+144            </intent-filter>
+145        </activity>
+146
+147        <service
+147-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:64:9-73:19
+148            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+148-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:65:13-101
+149            android:enabled="true"
+149-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:66:13-35
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:67:13-37
+151            <intent-filter>
+151-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:68:13-72:29
+152                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+152-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:17-89
+152-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:69:25-86
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:17-76
+154-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:36:27-73
+155            </intent-filter>
+156        </service>
+157        <service
+157-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:74:9-80:19
+158            android:name="com.google.firebase.components.ComponentDiscoveryService"
+158-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:75:13-84
+159            android:directBootAware="true"
+159-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+160            android:exported="false" >
+160-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:76:13-37
+161            <meta-data
+161-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:77:13-79:85
+162                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+162-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:78:17-109
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:79:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-database:19.6.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f820e3cdf5524f5905c0bd0b836c9605\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
+165                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+165-->[com.google.firebase:firebase-database:19.6.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f820e3cdf5524f5905c0bd0b836c9605\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-database:19.6.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f820e3cdf5524f5905c0bd0b836c9605\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
+167            <meta-data
+167-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\093fefaa9b92cc8891649f8a6fb059a9\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+168                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+168-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\093fefaa9b92cc8891649f8a6fb059a9\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\093fefaa9b92cc8891649f8a6fb059a9\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\241c282dc08b9c794b84408c480af70f\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+171                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+171-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\241c282dc08b9c794b84408c480af70f\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\241c282dc08b9c794b84408c480af70f\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+173            <!--
+174                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+175                clients to use it as well, by defining this registrar in their own core/common library.
+176            -->
+177            <meta-data
+177-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+178                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+178-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+180        </service>
+181
+182        <provider
+182-->[com.squareup.picasso:picasso:2.71828] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\02258fe912187f090447990466892a4c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+183            android:name="com.squareup.picasso.PicassoProvider"
+183-->[com.squareup.picasso:picasso:2.71828] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\02258fe912187f090447990466892a4c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+184            android:authorities="com.dyolmart.com.squareup.picasso"
+184-->[com.squareup.picasso:picasso:2.71828] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\02258fe912187f090447990466892a4c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+185            android:exported="false" />
+185-->[com.squareup.picasso:picasso:2.71828] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\02258fe912187f090447990466892a4c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+186
+187        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+187-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:12:9-16:20
+187-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:12:19-63
+188            <intent-filter>
+188-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:13:13-15:29
+189                <action android:name="rzp.device_token.share" />
+189-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:14:17-65
+189-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:14:25-62
+190            </intent-filter>
+191        </receiver>
+192
+193        <activity
+193-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:18:9-29:20
+194            android:name="com.razorpay.CheckoutActivity"
+194-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:19:13-57
+195            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+195-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:20:13-83
+196            android:theme="@style/CheckoutTheme" >
+196-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:21:13-49
+197            <intent-filter>
+197-->[com.razorpay:checkout:1.5.16] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\53eea5a45562f252935c8d6152e8f6aa\jetified-checkout-1.5.16\AndroidManifest.xml:22:13-28:29
+198                <action android:name="android.intent.action.MAIN" />
+198-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:92:17-69
+198-->E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:92:25-66
+199
+200                <data
+200-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:39:17-42:51
+201                    android:host="rzp.io"
+201-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:40:21-49
+202                    android:scheme="io.rzp" />
+202-->[com.google.firebase:firebase-auth:20.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7dda96e319b6648d7ec29f3c0eb96bbb\jetified-firebase-auth-20.0.2\AndroidManifest.xml:42:21-48
+203            </intent-filter>
+204        </activity>
+205        <activity
+205-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+206            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+206-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+207            android:exported="false"
+207-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+208            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+208-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+209
+210        <provider
+210-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+211            android:name="com.google.firebase.provider.FirebaseInitProvider"
+211-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+212            android:authorities="com.dyolmart.firebaseinitprovider"
+212-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+213            android:directBootAware="true"
+213-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+214            android:exported="false"
+214-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+215            android:initOrder="100" />
+215-->[com.google.firebase:firebase-common:19.5.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+216
+217        <receiver
+217-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+218            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+218-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+220            android:exported="false" >
+220-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+221        </receiver>
+222
+223        <service
+223-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+224            android:name="com.google.android.gms.measurement.AppMeasurementService"
+224-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+225            android:enabled="true"
+225-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+226            android:exported="false" />
+226-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+227        <service
+227-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+228            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+228-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+229            android:enabled="true"
+229-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+230            android:exported="false"
+230-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+231            android:permission="android.permission.BIND_JOB_SERVICE" />
+231-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\f847f86ac99b75bbeea0f1d82e51907a\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+232
+233        <meta-data
+233-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\74483de84094d0d661b0d354666c2c5a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+234            android:name="com.google.android.gms.version"
+234-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\74483de84094d0d661b0d354666c2c5a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+235            android:value="@integer/google_play_services_version" />
+235-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\74483de84094d0d661b0d354666c2c5a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+236    </application>
+237
+238</manifest>

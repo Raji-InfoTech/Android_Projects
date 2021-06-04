@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519518234968",
+    "project_id": "dyolmart-ecom",
+    "storage_bucket": "dyolmart-ecom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519518234968:android:fada5500dab4698ea11d2d",
+        "android_client_info": {
+          "package_name": "com.dyolmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519518234968-lnfm1205tmk51cd09fmj9tgur4tt7pi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5obf0MA5_LQmqk02BW3h7NTBl7JEOcX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519518234968-lnfm1205tmk51cd09fmj9tgur4tt7pi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

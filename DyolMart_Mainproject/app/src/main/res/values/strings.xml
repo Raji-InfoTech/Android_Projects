@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Dyolmart</string>
+
+
+    <!--Title String Values-->
+    <string name="Terms">Terms &amp; Privacy Policy</string>
+    <string name="titlequotes">When you say it, it’s marketing.\nWhen your customer says it,\n it’s social proof.</string>
+    <string name="logindetails">Log in to enjoy your shopping</string>
+    <string name="logindetails1">Shop and track your orders easily</string>
+    <string name="error_msg">FIELD CANNOT BE EMPTY</string>
+
+
+    <!--login string value-->
+    <string name="country">+91</string>
+    <string name="loginhint">Phone Number</string>
+    <string name="otphint">Enter the code we sent to</string>
+    <string name="resend">Resend OTP</string>
+
+
+    <!--Button String Values-->
+    <string name="main_button">Continue</string>
+    <string name="otp_button">Send OTP</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="address">My Address</string>
+    <string name="rating">Review Product</string>
+
+
+    <!-- navigation value-->
+    <string name="allcat">All Categories</string>
+    <string name="MyOrders">My Orders</string>
+    <string name="Mycart"> My Cart</string>
+    <string name="MyAccount">My Account</string>
+    <string name="MyWishlist">My Wishlist</string>
+    <string name="MyNotifycations">My Notifycations</string>
+    <string name="Help">Help</string>
+    <string name="Legal">Legal</string>
+    <string name="SelleronHypermart">Seller on Hypermart</string>
+
+    <!--All categories value-->
+    <string name="fashion">Fashion</string>
+    <string name="Mobiles">Mobiles</string>
+    <string name="Accessories">Accessories</string>
+    <string name="Beauty">Beauty</string>
+    <string name="Lap">Laptops &amp;  Computer</string>
+    <string name="Shoes">Shoes</string>
+    <string name="Watches">Watches</string>
+    <string name="Books">Books</string>
+    <string name="Sports">Sports</string>
+    <string name="Spareparts">Spare parts</string>
+    <string name="Toys">Toys</string>
+    <string name="cod">Available Cash On Delivery</string>
+    <string name="exit" />
+    <string name="Orderdetails">Order Summary</string>
+    <string name="ProceedtoCheckout">Proceed to Checkout</string>
+    <string name="Helpcenter">Help Center</string>
+
+</resources>
