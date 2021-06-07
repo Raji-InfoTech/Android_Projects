@@ -35,6 +35,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text=" PRICE DETAILS "
+            android:textSize="@dimen/text_size_xmedium"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -55,6 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:textSize="@dimen/text_size_xmedium"
             android:text="Price"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
@@ -67,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
+            android:textSize="@dimen/text_size_xmedium"
             android:text="Rs. 49999/-"
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
@@ -92,6 +95,7 @@
             android:text="Total Amount"
             android:textColor="#000000"
             android:textStyle="bold"
+            android:textSize="@dimen/text_size_xmedium"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider7" />
 
@@ -104,6 +108,7 @@
             android:text="Rs. 49999/-"
             android:textColor="#000000"
             android:textStyle="bold"
+            android:textSize="@dimen/text_size_xmedium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider7" />
 
@@ -126,24 +131,11 @@
             android:layout_marginBottom="16dp"
             android:text="Enjoy Your Shopping..!!!"
             android:textColor="@color/Green"
+            android:textSize="@dimen/text_size_xmedium"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider8" />
 
-        <Button
-            android:id="@+id/btn_invoice"
-            android:layout_width="66dp"
-            android:layout_height="27dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/primary_btn_bg"
-            android:fontFamily="@font/open_sans_bold"
-            android:text="Invoice"
-            android:visibility="invisible"
-            android:textAllCaps="false"
-            android:textColor="@android:color/background_light"
-            android:textSize="@dimen/text_size_small"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/divider8" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

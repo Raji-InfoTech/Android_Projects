@@ -47,7 +47,7 @@
         android:fontFamily="@font/open_sans_semibold"
         android:text="@string/Terms"
         android:textAlignment="center"
-        android:textSize="@dimen/text_size_large"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titlequotes" />

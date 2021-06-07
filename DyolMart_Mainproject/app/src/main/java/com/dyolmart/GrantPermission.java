@@ -78,20 +78,14 @@ public class GrantPermission extends AppCompatActivity {
                             Granted = false;
                             if (i != 4)
                                 NeverAskChecked = true;
-                           // Toast.makeText(context,String.valueOf(i)+NeverAskChecked.toString()+permissions[i],Toast.LENGTH_LONG).show();
                         } else {
                             Granted = false;
-                            //Toast.makeText(context,String.valueOf(i),Toast.LENGTH_LONG).show();
                         }
                     }
-                //Toast.makeText(MainActivity.this,"outside " +NeverAskChecked.toString()+","+Granted.toString(),Toast.LENGTH_LONG).show();
-
                 if (NeverAskChecked.equals(true))
                 {
                     Intent intent = new Intent(com.dyolmart.GrantPermission.this, RequestPermissionWarning.class);
                     intent.putExtra("NeverAsk", "true");
-                   // intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
                     startActivity(intent);
                 }
                 else
@@ -99,10 +93,8 @@ public class GrantPermission extends AppCompatActivity {
                     Intent intent = new Intent(com.dyolmart.GrantPermission.this, RequestPermissionWarning.class);
                     intent.putExtra("Permissions", perStr);
                     intent.putExtra("NeverAsk", "false");
-                    //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(intent);
                 }
-                // Toast.makeText(MainActivity.this,permissions[i]+String.valueOf(grantResults[i]),Toast.LENGTH_LONG).show();
                 return;
             }
         }

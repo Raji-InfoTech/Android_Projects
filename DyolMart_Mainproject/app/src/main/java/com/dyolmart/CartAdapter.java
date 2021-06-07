@@ -158,13 +158,7 @@ public class CartAdapter extends RecyclerView.Adapter {
 
         private void setTotalAmount(String totalItemsText, String totalItemsPriceText, String deliveryPriceText, String totalAmountText, String savedAmountText) {
             totalItems.setText(totalItemsText);
-            totalItemPrice.setText(
-
-
-
-
-
-                    totalItemsPriceText);
+            totalItemPrice.setText(totalItemsPriceText);
             deliveryPrice.setText(deliveryPriceText);
             totalAmount.setText(totalAmountText);
             savedAmount.setText(savedAmountText);

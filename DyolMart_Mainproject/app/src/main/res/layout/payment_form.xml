@@ -78,7 +78,8 @@
                                     android:layout_width="100dp"
                                     android:layout_height="wrap_content"
                                     android:textColor="#4CAF50"
-                                    android:textSize="@dimen/text_size_large" />
+                                    android:textStyle="bold"
+                                    android:textSize="@dimen/text_size_xmedium" />
 
                                 <TextView
                                     android:id="@+id/spoc1"
@@ -88,7 +89,7 @@
                                     android:layout_marginTop="50dp"
                                     android:text="Qty:"
                                     android:textColor="@color/black"
-                                    android:textSize="@dimen/text_size_large" />
+                                    android:textSize="@dimen/text_size_xmedium" />
 
                                 <Spinner
                                     android:id="@+id/product_quantity"
@@ -144,7 +145,7 @@
                 android:gravity="center_vertical"
                 android:layout_marginStart="20dp"
                 android:drawablePadding="8dp"
-                android:textSize="16sp"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 android:textColor="#485F70"
                 tools:ignore="RtlCompat" />
@@ -155,7 +156,7 @@
                 android:drawablePadding="8dp"
                 android:layout_marginStart="20dp"
                 android:gravity="center_vertical"
-                android:textSize="12sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 android:textColor="#485F70"
                 tools:ignore="RtlCompat" />
@@ -175,3 +176,5 @@
             android:layout_height="match_parent" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

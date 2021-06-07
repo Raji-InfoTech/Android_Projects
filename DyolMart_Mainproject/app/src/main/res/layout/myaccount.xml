@@ -19,9 +19,6 @@
 
             <include layout="@layout/profile_data_layout"/>
 
-           <!-- <include
-                layout="@layout/your_recent_orders_layout"
-                 />-->
 
             <include
                 layout="@layout/my_addresses_layout"/>

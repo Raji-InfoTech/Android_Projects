@@ -78,39 +78,10 @@ public class Fragment_Myaccount extends Fragment {
             }
         });
 
-      /*textView_Wishlist.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            }
-        });*/
-       /* textView_Cart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent2=new Intent(getContext(),Fragment_Mycart.class);
-              startActivity(intent2);
-
-            }
-        });
-        textView_Order.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent3=new Intent(getContext(),com.dyolmart.FragmentPages.Fragment_Myorder.class);
-                startActivity(intent3);
-            }
-        });
-*/
 
         SharedPreferences sharedPreferences =getContext(). getSharedPreferences("myKey", MODE_PRIVATE);
         String value = sharedPreferences.getString("value","");
         System.out.println("succfully printed"+value);
-
-       /* button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(getContext(),MyAddressesActivity.class);
-                startActivity(intent);
-            }
-        });*/
 
 
         SharedPreferences sharedPreferences1 =getContext(). getSharedPreferences("shareaddress", MODE_PRIVATE);

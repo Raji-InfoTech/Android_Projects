@@ -4,257 +4,37 @@ com/dyolmart/AdpterClass/CustomAdapter.java
  com.dyolmart.AdpterClass.CustomAdapter
  com.dyolmart.AdpterClass.CustomAdapter$1
  com.dyolmart.AdpterClass.CustomAdapter$viewHolder
-com/dyolmart/ViewHoler/ViewHolder_Beauty.java
- com.dyolmart.ViewHoler.ViewHolder_Beauty
- com.dyolmart.ViewHoler.ViewHolder_Beauty$1
- com.dyolmart.ViewHoler.ViewHolder_Beauty$myview
+com/dyolmart/ViewHoler/ViewHolder_Books.java
+ com.dyolmart.ViewHoler.ViewHolder_Books
+ com.dyolmart.ViewHoler.ViewHolder_Books$1
+ com.dyolmart.ViewHoler.ViewHolder_Books$myview
 com/dyolmart/CartAdapter.java
  com.dyolmart.CartAdapter
  com.dyolmart.CartAdapter$CartItemViewHolder
  com.dyolmart.CartAdapter$CartItemViewHolder$1
  com.dyolmart.CartAdapter$CartTotalAmountViewholder
-com/dyolmart/ReviewRating.java
- com.dyolmart.ReviewRating
- com.dyolmart.ReviewRating$1
- com.dyolmart.ReviewRating$2
- com.dyolmart.ReviewRating$3
-com/dyolmart/FragmentPages/Fragment_Myorder.java
- com.dyolmart.FragmentPages.Fragment_Myorder
+com/dyolmart/FindnextPage/Findnextpage_Sports.java
+ com.dyolmart.FindnextPage.Findnextpage_Sports
+ com.dyolmart.FindnextPage.Findnextpage_Sports$1
+ com.dyolmart.FindnextPage.Findnextpage_Sports$2
+ com.dyolmart.FindnextPage.Findnextpage_Sports$3
+ com.dyolmart.FindnextPage.Findnextpage_Sports$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Sports$4
+ com.dyolmart.FindnextPage.Findnextpage_Sports$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Sports$ViewPagerAdapter
 com/dyolmart/FragmentPages/Fragment_Myaccount.java
  com.dyolmart.FragmentPages.Fragment_Myaccount
  com.dyolmart.FragmentPages.Fragment_Myaccount$1
 com/dyolmart/Invoice.java
  com.dyolmart.Invoice
-com/dyolmart/HelperClass/Userhipper.java
- com.dyolmart.HelperClass.Userhipper
+com/dyolmart/ViewHoler/ViewHolder_Accessories.java
+ com.dyolmart.ViewHoler.ViewHolder_Accessories
+ com.dyolmart.ViewHoler.ViewHolder_Accessories$1
+ com.dyolmart.ViewHoler.ViewHolder_Accessories$myview
 com/dyolmart/AllCatalogue/Home_Watches.java
  com.dyolmart.AllCatalogue.Home_Watches
  com.dyolmart.AllCatalogue.Home_Watches$1
  com.dyolmart.AllCatalogue.Home_Watches$2
-com/dyolmart/ViewHoler/RecyclerHolder_mycart.java
- com.dyolmart.ViewHoler.RecyclerHolder_mycart
- com.dyolmart.ViewHoler.RecyclerHolder_mycart$1
- com.dyolmart.ViewHoler.RecyclerHolder_mycart$myview
- com.dyolmart.ViewHoler.RecyclerHolder_mycart$myview$1
-com/dyolmart/AllCatalogue/Home_Mobile.java
- com.dyolmart.AllCatalogue.Home_Mobile
- com.dyolmart.AllCatalogue.Home_Mobile$1
- com.dyolmart.AllCatalogue.Home_Mobile$2
-com/dyolmart/HelperClass/member.java
- com.dyolmart.HelperClass.member
-com/dyolmart/FragmentPages/Fragment_Mywhislist.java
- com.dyolmart.FragmentPages.Fragment_Mywhislist
-com/dyolmart/FragmentPages/Fragment_finddescription.java
- com.dyolmart.FragmentPages.Fragment_finddescription
-com/dyolmart/DeliveryActivity.java
- com.dyolmart.DeliveryActivity
- com.dyolmart.DeliveryActivity$1
-com/dyolmart/AllCatalogue/Home_Books.java
- com.dyolmart.AllCatalogue.Home_Books
- com.dyolmart.AllCatalogue.Home_Books$1
- com.dyolmart.AllCatalogue.Home_Books$2
-com/dyolmart/Findnextpage_Mycart.java
- com.dyolmart.Findnextpage_Mycart
- com.dyolmart.Findnextpage_Mycart$1
- com.dyolmart.Findnextpage_Mycart$1$1
- com.dyolmart.Findnextpage_Mycart$1$1$1
- com.dyolmart.Findnextpage_Mycart$1$2
- com.dyolmart.Findnextpage_Mycart$1$2$1
- com.dyolmart.Findnextpage_Mycart$1$3
- com.dyolmart.Findnextpage_Mycart$1$3$1
- com.dyolmart.Findnextpage_Mycart$1$4
- com.dyolmart.Findnextpage_Mycart$1$4$1
- com.dyolmart.Findnextpage_Mycart$1$5
- com.dyolmart.Findnextpage_Mycart$1$5$1
- com.dyolmart.Findnextpage_Mycart$1$6
- com.dyolmart.Findnextpage_Mycart$1$6$1
- com.dyolmart.Findnextpage_Mycart$2
- com.dyolmart.Findnextpage_Mycart$3
- com.dyolmart.Findnextpage_Mycart$3$1
- com.dyolmart.Findnextpage_Mycart$4
- com.dyolmart.Findnextpage_Mycart$4$1
- com.dyolmart.Findnextpage_Mycart$ViewPagerAdapter
-com/dyolmart/GrantPermission.java
- com.dyolmart.GrantPermission
-com/dyolmart/FragmentPages/Fragment_Mycart.java
- com.dyolmart.FragmentPages.Fragment_Mycart
-com/dyolmart/FragmentPages/Fragment_offerzone.java
- com.dyolmart.FragmentPages.Fragment_offerzone
-com/dyolmart/FragmentPages/Fragment_Notify_Prof.java
- com.dyolmart.FragmentPages.Fragment_Notify_Prof
-com/dyolmart/FindnextPage/Findnextpage_Book.java
- com.dyolmart.FindnextPage.Findnextpage_Book
- com.dyolmart.FindnextPage.Findnextpage_Book$1
- com.dyolmart.FindnextPage.Findnextpage_Book$2
- com.dyolmart.FindnextPage.Findnextpage_Book$3
- com.dyolmart.FindnextPage.Findnextpage_Book$3$1
- com.dyolmart.FindnextPage.Findnextpage_Book$4
- com.dyolmart.FindnextPage.Findnextpage_Book$4$1
- com.dyolmart.FindnextPage.Findnextpage_Book$ViewPagerAdapter
-com/dyolmart/FragmentPages/Fragment_Hypercoins.java
- com.dyolmart.FragmentPages.Fragment_Hypercoins
-com/dyolmart/Payment_Form.java
- com.dyolmart.Payment_Form
- com.dyolmart.Payment_Form$1
- com.dyolmart.Payment_Form$2
-com/dyolmart/Customer_Login.java
- com.dyolmart.Customer_Login
- com.dyolmart.Customer_Login$1
- com.dyolmart.Customer_Login$2
- com.dyolmart.Customer_Login$2$1
- com.dyolmart.Customer_Login$3
-com/dyolmart/FindnextPage/Findnextpage_Accessories.java
- com.dyolmart.FindnextPage.Findnextpage_Accessories
- com.dyolmart.FindnextPage.Findnextpage_Accessories$1
- com.dyolmart.FindnextPage.Findnextpage_Accessories$2
- com.dyolmart.FindnextPage.Findnextpage_Accessories$3
- com.dyolmart.FindnextPage.Findnextpage_Accessories$3$1
- com.dyolmart.FindnextPage.Findnextpage_Accessories$4
- com.dyolmart.FindnextPage.Findnextpage_Accessories$4$1
- com.dyolmart.FindnextPage.Findnextpage_Accessories$ViewPagerAdapter
-com/dyolmart/AllCatalogue/Home_BannerShops.java
- com.dyolmart.AllCatalogue.Home_BannerShops
- com.dyolmart.AllCatalogue.Home_BannerShops$1
- com.dyolmart.AllCatalogue.Home_BannerShops$2
-com/dyolmart/Searchbar.java
- com.dyolmart.Searchbar
- com.dyolmart.Searchbar$1
- com.dyolmart.Searchbar$2
-com/dyolmart/OTP_verifyform.java
- com.dyolmart.OTP_verifyform
- com.dyolmart.OTP_verifyform$1
- com.dyolmart.OTP_verifyform$2
- com.dyolmart.OTP_verifyform$3
- com.dyolmart.OTP_verifyform$3$1
- com.dyolmart.OTP_verifyform$4
-com/dyolmart/AllCatalogue/Home_Sports.java
- com.dyolmart.AllCatalogue.Home_Sports
- com.dyolmart.AllCatalogue.Home_Sports$1
- com.dyolmart.AllCatalogue.Home_Sports$2
-com/dyolmart/FragmentPages/Fragment_Mynotification.java
- com.dyolmart.FragmentPages.Fragment_Mynotification
-com/dyolmart/HelperClass/Helper.java
- com.dyolmart.HelperClass.Helper
-com/dyolmart/AllCatalogue/Home_Accessories.java
- com.dyolmart.AllCatalogue.Home_Accessories
- com.dyolmart.AllCatalogue.Home_Accessories$1
- com.dyolmart.AllCatalogue.Home_Accessories$2
-com/dyolmart/CartItemModel.java
- com.dyolmart.CartItemModel
-com/dyolmart/HomeScreen.java
- com.dyolmart.HomeScreen
-com/dyolmart/MainActivity.java
- com.dyolmart.MainActivity
- com.dyolmart.MainActivity$1
-com/dyolmart/FragmentPages/Fragment_Home.java
- com.dyolmart.FragmentPages.Fragment_Home
- com.dyolmart.FragmentPages.Fragment_Home$1
- com.dyolmart.FragmentPages.Fragment_Home$1$1
- com.dyolmart.FragmentPages.Fragment_Home$1$2
- com.dyolmart.FragmentPages.Fragment_Home$2
- com.dyolmart.FragmentPages.Fragment_Home$3
- com.dyolmart.FragmentPages.Fragment_Home$4
- com.dyolmart.FragmentPages.Fragment_Home$5
- com.dyolmart.FragmentPages.Fragment_Home$6
- com.dyolmart.FragmentPages.Fragment_Home$7
- com.dyolmart.FragmentPages.Fragment_Home$8
-com/dyolmart/AllCatalogue/Home_Beauty.java
- com.dyolmart.AllCatalogue.Home_Beauty
- com.dyolmart.AllCatalogue.Home_Beauty$1
- com.dyolmart.AllCatalogue.Home_Beauty$2
-com/dyolmart/Findnextpage_MyWishlist.java
- com.dyolmart.Findnextpage_MyWishlist
- com.dyolmart.Findnextpage_MyWishlist$1
- com.dyolmart.Findnextpage_MyWishlist$1$1
- com.dyolmart.Findnextpage_MyWishlist$1$1$1
- com.dyolmart.Findnextpage_MyWishlist$1$2
- com.dyolmart.Findnextpage_MyWishlist$1$2$1
- com.dyolmart.Findnextpage_MyWishlist$1$3
- com.dyolmart.Findnextpage_MyWishlist$1$3$1
- com.dyolmart.Findnextpage_MyWishlist$1$4
- com.dyolmart.Findnextpage_MyWishlist$1$4$1
- com.dyolmart.Findnextpage_MyWishlist$1$5
- com.dyolmart.Findnextpage_MyWishlist$1$5$1
- com.dyolmart.Findnextpage_MyWishlist$1$6
- com.dyolmart.Findnextpage_MyWishlist$1$6$1
- com.dyolmart.Findnextpage_MyWishlist$2
- com.dyolmart.Findnextpage_MyWishlist$3
- com.dyolmart.Findnextpage_MyWishlist$3$1
- com.dyolmart.Findnextpage_MyWishlist$4
- com.dyolmart.Findnextpage_MyWishlist$4$1
- com.dyolmart.Findnextpage_MyWishlist$ViewPagerAdapter
-com/dyolmart/ViewHoler/Homescreenholder1.java
- com.dyolmart.ViewHoler.Homescreenholder1
- com.dyolmart.ViewHoler.Homescreenholder1$1
- com.dyolmart.ViewHoler.Homescreenholder1$myview
-com/dyolmart/AllCatalogue/Home_Lappc.java
- com.dyolmart.AllCatalogue.Home_Lappc
- com.dyolmart.AllCatalogue.Home_Lappc$1
- com.dyolmart.AllCatalogue.Home_Lappc$2
-com/dyolmart/FragmentPages/Fragment_findsepcification.java
- com.dyolmart.FragmentPages.Fragment_findsepcification
-com/dyolmart/AllCatalogue/Home_Shoes.java
- com.dyolmart.AllCatalogue.Home_Shoes
- com.dyolmart.AllCatalogue.Home_Shoes$1
- com.dyolmart.AllCatalogue.Home_Shoes$2
-com/dyolmart/AllCatalogue/Home_Fashion.java
- com.dyolmart.AllCatalogue.Home_Fashion
- com.dyolmart.AllCatalogue.Home_Fashion$1
- com.dyolmart.AllCatalogue.Home_Fashion$2
-com/dyolmart/FragmentPages/Fragment_Help.java
- com.dyolmart.FragmentPages.Fragment_Help
-com/dyolmart/ViewHoler/ViewHolder_Books.java
- com.dyolmart.ViewHoler.ViewHolder_Books
- com.dyolmart.ViewHoler.ViewHolder_Books$1
- com.dyolmart.ViewHoler.ViewHolder_Books$myview
-com/dyolmart/AdpterClass/CustomAdapter_Recycle.java
- com.dyolmart.AdpterClass.CustomAdapter_Recycle
- com.dyolmart.AdpterClass.CustomAdapter_Recycle$viewHolder
-com/dyolmart/AllCatalogue/Home_Spare.java
- com.dyolmart.AllCatalogue.Home_Spare
- com.dyolmart.AllCatalogue.Home_Spare$1
- com.dyolmart.AllCatalogue.Home_Spare$2
-com/dyolmart/RequestPermissionWarning.java
- com.dyolmart.RequestPermissionWarning
- com.dyolmart.RequestPermissionWarning$1
-com/dyolmart/ViewHoler/Commonsearch_ViewHolder.java
- com.dyolmart.ViewHoler.Commonsearch_ViewHolder
- com.dyolmart.ViewHoler.Commonsearch_ViewHolder$1
- com.dyolmart.ViewHoler.Commonsearch_ViewHolder$myview
-com/dyolmart/ViewHoler/RecyclerHolder_mywishlist.java
- com.dyolmart.ViewHoler.RecyclerHolder_mywishlist
- com.dyolmart.ViewHoler.RecyclerHolder_mywishlist$1
- com.dyolmart.ViewHoler.RecyclerHolder_mywishlist$myview
-com/dyolmart/FragmentPages/Fragment_Categories.java
- com.dyolmart.FragmentPages.Fragment_Categories
- com.dyolmart.FragmentPages.Fragment_Categories$1
- com.dyolmart.FragmentPages.Fragment_Categories$10
- com.dyolmart.FragmentPages.Fragment_Categories$2
- com.dyolmart.FragmentPages.Fragment_Categories$3
- com.dyolmart.FragmentPages.Fragment_Categories$4
- com.dyolmart.FragmentPages.Fragment_Categories$5
- com.dyolmart.FragmentPages.Fragment_Categories$6
- com.dyolmart.FragmentPages.Fragment_Categories$7
- com.dyolmart.FragmentPages.Fragment_Categories$8
- com.dyolmart.FragmentPages.Fragment_Categories$9
-com/dyolmart/AddressesModel.java
- com.dyolmart.AddressesModel
-com/dyolmart/HelperClass/products.java
- com.dyolmart.HelperClass.products
-com/dyolmart/ViewHoler/Bannershops_ViewHolder.java
- com.dyolmart.ViewHoler.Bannershops_ViewHolder
- com.dyolmart.ViewHoler.Bannershops_ViewHolder$1
- com.dyolmart.ViewHoler.Bannershops_ViewHolder$myview
-com/dyolmart/FragmentPages/Fragment_ClientHomePage.java
- com.dyolmart.FragmentPages.Fragment_ClientHomePage
- com.dyolmart.FragmentPages.Fragment_ClientHomePage$1
-com/dyolmart/HelperClass/UserProfile.java
- com.dyolmart.HelperClass.UserProfile
-com/dyolmart/SplashScreen.java
- com.dyolmart.SplashScreen
- com.dyolmart.SplashScreen$1
- com.dyolmart.SplashScreen$2
- com.dyolmart.SplashScreen$3
 com/dyolmart/Homebannerad_Shop.java
  com.dyolmart.Homebannerad_Shop
  com.dyolmart.Homebannerad_Shop$1
@@ -302,64 +82,63 @@ com/dyolmart/Homebannerad_Shop.java
  com.dyolmart.Homebannerad_Shop$6
  com.dyolmart.Homebannerad_Shop$6$1
  com.dyolmart.Homebannerad_Shop$ViewPagerAdapter
-com/dyolmart/FragmentPages/Fragment_Legal.java
- com.dyolmart.FragmentPages.Fragment_Legal
-com/dyolmart/BuildConfig.java
- com.dyolmart.BuildConfig
-com/dyolmart/ViewHoler/RecyclerHolder.java
- com.dyolmart.ViewHoler.RecyclerHolder
- com.dyolmart.ViewHoler.RecyclerHolder$1
- com.dyolmart.ViewHoler.RecyclerHolder$2
- com.dyolmart.ViewHoler.RecyclerHolder$myview
-com/dyolmart/FindnextPage/Findnextpage_Beauty.java
- com.dyolmart.FindnextPage.Findnextpage_Beauty
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$1$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$2
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$2$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$3
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$3$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$4
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$4$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$5
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$5$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$6
- com.dyolmart.FindnextPage.Findnextpage_Beauty$1$6$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$2
- com.dyolmart.FindnextPage.Findnextpage_Beauty$3
- com.dyolmart.FindnextPage.Findnextpage_Beauty$3$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$4
- com.dyolmart.FindnextPage.Findnextpage_Beauty$4$1
- com.dyolmart.FindnextPage.Findnextpage_Beauty$ViewPagerAdapter
-com/dyolmart/RazorPay_Form.java
- com.dyolmart.RazorPay_Form
- com.dyolmart.RazorPay_Form$1
- com.dyolmart.RazorPay_Form$2
- com.dyolmart.RazorPay_Form$3
- com.dyolmart.RazorPay_Form$4
- com.dyolmart.RazorPay_Form$SendSms
+com/dyolmart/AllCatalogue/Home_Mobile.java
+ com.dyolmart.AllCatalogue.Home_Mobile
+ com.dyolmart.AllCatalogue.Home_Mobile$1
+ com.dyolmart.AllCatalogue.Home_Mobile$2
+com/dyolmart/HelperClass/member.java
+ com.dyolmart.HelperClass.member
 com/dyolmart/AddAddressActivity.java
  com.dyolmart.AddAddressActivity
  com.dyolmart.AddAddressActivity$1
  com.dyolmart.AddAddressActivity$1$1
-com/dyolmart/MyAddressesActivity.java
- com.dyolmart.MyAddressesActivity
- com.dyolmart.MyAddressesActivity$1
- com.dyolmart.MyAddressesActivity$2
- com.dyolmart.MyAddressesActivity$3
-com/dyolmart/OrderDetailsActivity.java
- com.dyolmart.OrderDetailsActivity
- com.dyolmart.OrderDetailsActivity$1
- com.dyolmart.OrderDetailsActivity$2
-com/dyolmart/ViewHoler/ViewHolder_Accessories.java
- com.dyolmart.ViewHoler.ViewHolder_Accessories
- com.dyolmart.ViewHoler.ViewHolder_Accessories$1
- com.dyolmart.ViewHoler.ViewHolder_Accessories$myview
-com/dyolmart/ViewHoler/Account_ViewHolder.java
- com.dyolmart.ViewHoler.Account_ViewHolder
- com.dyolmart.ViewHoler.Account_ViewHolder$myview
- com.dyolmart.ViewHoler.Account_ViewHolder$myview$1
+com/dyolmart/FindnextPage/Findnextpage_Watches.java
+ com.dyolmart.FindnextPage.Findnextpage_Watches
+ com.dyolmart.FindnextPage.Findnextpage_Watches$1
+ com.dyolmart.FindnextPage.Findnextpage_Watches$2
+ com.dyolmart.FindnextPage.Findnextpage_Watches$3
+ com.dyolmart.FindnextPage.Findnextpage_Watches$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Watches$4
+ com.dyolmart.FindnextPage.Findnextpage_Watches$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Watches$ViewPagerAdapter
+com/dyolmart/DeliveryActivity.java
+ com.dyolmart.DeliveryActivity
+ com.dyolmart.DeliveryActivity$1
+com/dyolmart/AllCatalogue/Home_Books.java
+ com.dyolmart.AllCatalogue.Home_Books
+ com.dyolmart.AllCatalogue.Home_Books$1
+ com.dyolmart.AllCatalogue.Home_Books$2
+com/dyolmart/FindnextPage/Findnextpage_Fashion.java
+ com.dyolmart.FindnextPage.Findnextpage_Fashion
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$1$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$2
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$2$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$3
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$4
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$5
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$5$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$6
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$1$6$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$2
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$3
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$4
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Fashion$ViewPagerAdapter
+com/dyolmart/GrantPermission.java
+ com.dyolmart.GrantPermission
+com/dyolmart/ViewHoler/ViewHolder_Mobile.java
+ com.dyolmart.ViewHoler.ViewHolder_Mobile
+ com.dyolmart.ViewHoler.ViewHolder_Mobile$1
+ com.dyolmart.ViewHoler.ViewHolder_Mobile$myview
+com/dyolmart/AllCatalogue/Home_Beauty.java
+ com.dyolmart.AllCatalogue.Home_Beauty
+ com.dyolmart.AllCatalogue.Home_Beauty$1
+ com.dyolmart.AllCatalogue.Home_Beauty$2
 com/dyolmart/ViewHoler/ViewHolder_Shoes.java
  com.dyolmart.ViewHoler.ViewHolder_Shoes
  com.dyolmart.ViewHoler.ViewHolder_Shoes$1
@@ -368,6 +147,10 @@ com/dyolmart/ViewHoler/ViewHolder_Fashion.java
  com.dyolmart.ViewHoler.ViewHolder_Fashion
  com.dyolmart.ViewHoler.ViewHolder_Fashion$1
  com.dyolmart.ViewHoler.ViewHolder_Fashion$myview
+com/dyolmart/ViewHoler/RecyclerHolder_mywishlist.java
+ com.dyolmart.ViewHoler.RecyclerHolder_mywishlist
+ com.dyolmart.ViewHoler.RecyclerHolder_mywishlist$1
+ com.dyolmart.ViewHoler.RecyclerHolder_mywishlist$myview
 com/dyolmart/ViewHoler/ViewHolder_Lappc.java
  com.dyolmart.ViewHoler.ViewHolder_Lappc
  com.dyolmart.ViewHoler.ViewHolder_Lappc$1
@@ -393,6 +176,191 @@ com/dyolmart/FindnextPage/Findnextpage_Mobile.java
  com.dyolmart.FindnextPage.Findnextpage_Mobile$4
  com.dyolmart.FindnextPage.Findnextpage_Mobile$4$1
  com.dyolmart.FindnextPage.Findnextpage_Mobile$ViewPagerAdapter
+com/dyolmart/Searchbar.java
+ com.dyolmart.Searchbar
+ com.dyolmart.Searchbar$1
+ com.dyolmart.Searchbar$2
+com/dyolmart/OTP_verifyform.java
+ com.dyolmart.OTP_verifyform
+ com.dyolmart.OTP_verifyform$1
+ com.dyolmart.OTP_verifyform$2
+ com.dyolmart.OTP_verifyform$3
+ com.dyolmart.OTP_verifyform$3$1
+ com.dyolmart.OTP_verifyform$4
+com/dyolmart/FindnextPage/Findnextpage_Book.java
+ com.dyolmart.FindnextPage.Findnextpage_Book
+ com.dyolmart.FindnextPage.Findnextpage_Book$1
+ com.dyolmart.FindnextPage.Findnextpage_Book$2
+ com.dyolmart.FindnextPage.Findnextpage_Book$3
+ com.dyolmart.FindnextPage.Findnextpage_Book$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Book$4
+ com.dyolmart.FindnextPage.Findnextpage_Book$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Book$ViewPagerAdapter
+com/dyolmart/HelperClass/Userhipper.java
+ com.dyolmart.HelperClass.Userhipper
+com/dyolmart/HelperClass/Helper.java
+ com.dyolmart.HelperClass.Helper
+com/dyolmart/AllCatalogue/Home_Accessories.java
+ com.dyolmart.AllCatalogue.Home_Accessories
+ com.dyolmart.AllCatalogue.Home_Accessories$1
+ com.dyolmart.AllCatalogue.Home_Accessories$2
+com/dyolmart/CartItemModel.java
+ com.dyolmart.CartItemModel
+com/dyolmart/HomeScreen.java
+ com.dyolmart.HomeScreen
+com/dyolmart/MainActivity.java
+ com.dyolmart.MainActivity
+ com.dyolmart.MainActivity$1
+com/dyolmart/ViewHoler/RecyclerHolder_mycart.java
+ com.dyolmart.ViewHoler.RecyclerHolder_mycart
+ com.dyolmart.ViewHoler.RecyclerHolder_mycart$1
+ com.dyolmart.ViewHoler.RecyclerHolder_mycart$myview
+ com.dyolmart.ViewHoler.RecyclerHolder_mycart$myview$1
+com/dyolmart/FragmentPages/Fragment_Mywhislist.java
+ com.dyolmart.FragmentPages.Fragment_Mywhislist
+com/dyolmart/ViewHoler/ViewHolder_Watches.java
+ com.dyolmart.ViewHoler.ViewHolder_Watches
+ com.dyolmart.ViewHoler.ViewHolder_Watches$1
+ com.dyolmart.ViewHoler.ViewHolder_Watches$myview
+com/dyolmart/ViewHoler/Homescreenholder1.java
+ com.dyolmart.ViewHoler.Homescreenholder1
+ com.dyolmart.ViewHoler.Homescreenholder1$1
+ com.dyolmart.ViewHoler.Homescreenholder1$myview
+com/dyolmart/AllCatalogue/Home_Lappc.java
+ com.dyolmart.AllCatalogue.Home_Lappc
+ com.dyolmart.AllCatalogue.Home_Lappc$1
+ com.dyolmart.AllCatalogue.Home_Lappc$2
+com/dyolmart/FragmentPages/Fragment_findsepcification.java
+ com.dyolmart.FragmentPages.Fragment_findsepcification
+com/dyolmart/FragmentPages/Fragment_Home.java
+ com.dyolmart.FragmentPages.Fragment_Home
+ com.dyolmart.FragmentPages.Fragment_Home$1
+ com.dyolmart.FragmentPages.Fragment_Home$1$1
+ com.dyolmart.FragmentPages.Fragment_Home$1$2
+ com.dyolmart.FragmentPages.Fragment_Home$2
+ com.dyolmart.FragmentPages.Fragment_Home$3
+ com.dyolmart.FragmentPages.Fragment_Home$4
+ com.dyolmart.FragmentPages.Fragment_Home$5
+ com.dyolmart.FragmentPages.Fragment_Home$6
+ com.dyolmart.FragmentPages.Fragment_Home$7
+ com.dyolmart.FragmentPages.Fragment_Home$8
+com/dyolmart/AllCatalogue/Home_Fashion.java
+ com.dyolmart.AllCatalogue.Home_Fashion
+ com.dyolmart.AllCatalogue.Home_Fashion$1
+ com.dyolmart.AllCatalogue.Home_Fashion$2
+com/dyolmart/FragmentPages/Fragment_Help.java
+ com.dyolmart.FragmentPages.Fragment_Help
+com/dyolmart/ViewHoler/ViewHolder_Sports.java
+ com.dyolmart.ViewHoler.ViewHolder_Sports
+ com.dyolmart.ViewHoler.ViewHolder_Sports$1
+ com.dyolmart.ViewHoler.ViewHolder_Sports$myview
+com/dyolmart/FragmentPages/Fragment_Mycart.java
+ com.dyolmart.FragmentPages.Fragment_Mycart
+com/dyolmart/AllCatalogue/Home_Spare.java
+ com.dyolmart.AllCatalogue.Home_Spare
+ com.dyolmart.AllCatalogue.Home_Spare$1
+ com.dyolmart.AllCatalogue.Home_Spare$2
+com/dyolmart/Findnextpage_Mycart.java
+ com.dyolmart.Findnextpage_Mycart
+ com.dyolmart.Findnextpage_Mycart$1
+ com.dyolmart.Findnextpage_Mycart$1$1
+ com.dyolmart.Findnextpage_Mycart$1$1$1
+ com.dyolmart.Findnextpage_Mycart$1$2
+ com.dyolmart.Findnextpage_Mycart$1$2$1
+ com.dyolmart.Findnextpage_Mycart$1$3
+ com.dyolmart.Findnextpage_Mycart$1$3$1
+ com.dyolmart.Findnextpage_Mycart$1$4
+ com.dyolmart.Findnextpage_Mycart$1$4$1
+ com.dyolmart.Findnextpage_Mycart$1$5
+ com.dyolmart.Findnextpage_Mycart$1$5$1
+ com.dyolmart.Findnextpage_Mycart$1$6
+ com.dyolmart.Findnextpage_Mycart$1$6$1
+ com.dyolmart.Findnextpage_Mycart$2
+ com.dyolmart.Findnextpage_Mycart$3
+ com.dyolmart.Findnextpage_Mycart$3$1
+ com.dyolmart.Findnextpage_Mycart$4
+ com.dyolmart.Findnextpage_Mycart$4$1
+ com.dyolmart.Findnextpage_Mycart$ViewPagerAdapter
+com/dyolmart/ViewHoler/Commonsearch_ViewHolder.java
+ com.dyolmart.ViewHoler.Commonsearch_ViewHolder
+ com.dyolmart.ViewHoler.Commonsearch_ViewHolder$1
+ com.dyolmart.ViewHoler.Commonsearch_ViewHolder$myview
+com/dyolmart/Findnextpage_MyWishlist.java
+ com.dyolmart.Findnextpage_MyWishlist
+ com.dyolmart.Findnextpage_MyWishlist$1
+ com.dyolmart.Findnextpage_MyWishlist$1$1
+ com.dyolmart.Findnextpage_MyWishlist$1$1$1
+ com.dyolmart.Findnextpage_MyWishlist$1$2
+ com.dyolmart.Findnextpage_MyWishlist$1$2$1
+ com.dyolmart.Findnextpage_MyWishlist$1$3
+ com.dyolmart.Findnextpage_MyWishlist$1$3$1
+ com.dyolmart.Findnextpage_MyWishlist$1$4
+ com.dyolmart.Findnextpage_MyWishlist$1$4$1
+ com.dyolmart.Findnextpage_MyWishlist$1$5
+ com.dyolmart.Findnextpage_MyWishlist$1$5$1
+ com.dyolmart.Findnextpage_MyWishlist$1$6
+ com.dyolmart.Findnextpage_MyWishlist$1$6$1
+ com.dyolmart.Findnextpage_MyWishlist$2
+ com.dyolmart.Findnextpage_MyWishlist$3
+ com.dyolmart.Findnextpage_MyWishlist$3$1
+ com.dyolmart.Findnextpage_MyWishlist$4
+ com.dyolmart.Findnextpage_MyWishlist$4$1
+ com.dyolmart.Findnextpage_MyWishlist$ViewPagerAdapter
+com/dyolmart/FragmentPages/Fragment_Categories.java
+ com.dyolmart.FragmentPages.Fragment_Categories
+ com.dyolmart.FragmentPages.Fragment_Categories$1
+ com.dyolmart.FragmentPages.Fragment_Categories$10
+ com.dyolmart.FragmentPages.Fragment_Categories$2
+ com.dyolmart.FragmentPages.Fragment_Categories$3
+ com.dyolmart.FragmentPages.Fragment_Categories$4
+ com.dyolmart.FragmentPages.Fragment_Categories$5
+ com.dyolmart.FragmentPages.Fragment_Categories$6
+ com.dyolmart.FragmentPages.Fragment_Categories$7
+ com.dyolmart.FragmentPages.Fragment_Categories$8
+ com.dyolmart.FragmentPages.Fragment_Categories$9
+com/dyolmart/AddressesModel.java
+ com.dyolmart.AddressesModel
+com/dyolmart/HelperClass/products.java
+ com.dyolmart.HelperClass.products
+com/dyolmart/ViewHoler/Bannershops_ViewHolder.java
+ com.dyolmart.ViewHoler.Bannershops_ViewHolder
+ com.dyolmart.ViewHoler.Bannershops_ViewHolder$1
+ com.dyolmart.ViewHoler.Bannershops_ViewHolder$myview
+com/dyolmart/FragmentPages/Fragment_ClientHomePage.java
+ com.dyolmart.FragmentPages.Fragment_ClientHomePage
+ com.dyolmart.FragmentPages.Fragment_ClientHomePage$1
+com/dyolmart/HelperClass/UserProfile.java
+ com.dyolmart.HelperClass.UserProfile
+com/dyolmart/SplashScreen.java
+ com.dyolmart.SplashScreen
+ com.dyolmart.SplashScreen$1
+ com.dyolmart.SplashScreen$2
+ com.dyolmart.SplashScreen$3
+com/dyolmart/FindnextPage/Findnextpage_Beauty.java
+ com.dyolmart.FindnextPage.Findnextpage_Beauty
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$1$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$2
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$2$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$3
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$4
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$5
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$5$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$6
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$1$6$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$2
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$3
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$4
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Beauty$ViewPagerAdapter
+com/dyolmart/FragmentPages/Fragment_Legal.java
+ com.dyolmart.FragmentPages.Fragment_Legal
+com/dyolmart/BuildConfig.java
+ com.dyolmart.BuildConfig
 com/dyolmart/FindnextPage/Findnextpage_Lappc.java
  com.dyolmart.FindnextPage.Findnextpage_Lappc
  com.dyolmart.FindnextPage.Findnextpage_Lappc$1
@@ -414,6 +382,10 @@ com/dyolmart/FindnextPage/Findnextpage_Lappc.java
  com.dyolmart.FindnextPage.Findnextpage_Lappc$4
  com.dyolmart.FindnextPage.Findnextpage_Lappc$4$1
  com.dyolmart.FindnextPage.Findnextpage_Lappc$ViewPagerAdapter
+com/dyolmart/AllCatalogue/Home_BannerShops.java
+ com.dyolmart.AllCatalogue.Home_BannerShops
+ com.dyolmart.AllCatalogue.Home_BannerShops$1
+ com.dyolmart.AllCatalogue.Home_BannerShops$2
 com/dyolmart/FindnextPage/Findnextpage_Shoes.java
  com.dyolmart.FindnextPage.Findnextpage_Shoes
  com.dyolmart.FindnextPage.Findnextpage_Shoes$1
@@ -435,31 +407,25 @@ com/dyolmart/FindnextPage/Findnextpage_Shoes.java
  com.dyolmart.FindnextPage.Findnextpage_Shoes$4
  com.dyolmart.FindnextPage.Findnextpage_Shoes$4$1
  com.dyolmart.FindnextPage.Findnextpage_Shoes$ViewPagerAdapter
-com/dyolmart/FindnextPage/Findnextpage_Fashion.java
- com.dyolmart.FindnextPage.Findnextpage_Fashion
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$1$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$2
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$2$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$3
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$3$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$4
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$4$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$5
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$5$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$6
- com.dyolmart.FindnextPage.Findnextpage_Fashion$1$6$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$2
- com.dyolmart.FindnextPage.Findnextpage_Fashion$3
- com.dyolmart.FindnextPage.Findnextpage_Fashion$3$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$4
- com.dyolmart.FindnextPage.Findnextpage_Fashion$4$1
- com.dyolmart.FindnextPage.Findnextpage_Fashion$ViewPagerAdapter
 com/dyolmart/ViewHoler/ViewHolder_Spares.java
  com.dyolmart.ViewHoler.ViewHolder_Spares
  com.dyolmart.ViewHoler.ViewHolder_Spares$1
  com.dyolmart.ViewHoler.ViewHolder_Spares$myview
+com/dyolmart/ViewHoler/Account_ViewHolder.java
+ com.dyolmart.ViewHoler.Account_ViewHolder
+ com.dyolmart.ViewHoler.Account_ViewHolder$myview
+ com.dyolmart.ViewHoler.Account_ViewHolder$myview$1
+com/dyolmart/FragmentPages/Fragment_Myorder.java
+ com.dyolmart.FragmentPages.Fragment_Myorder
+com/dyolmart/FragmentPages/Fragment_finddescription.java
+ com.dyolmart.FragmentPages.Fragment_finddescription
+com/dyolmart/RequestPermissionWarning.java
+ com.dyolmart.RequestPermissionWarning
+ com.dyolmart.RequestPermissionWarning$1
+com/dyolmart/ViewHoler/ViewHolder_Beauty.java
+ com.dyolmart.ViewHoler.ViewHolder_Beauty
+ com.dyolmart.ViewHoler.ViewHolder_Beauty$1
+ com.dyolmart.ViewHoler.ViewHolder_Beauty$myview
 com/dyolmart/FindnextPage/Findnextpage_Spares.java
  com.dyolmart.FindnextPage.Findnextpage_Spares
  com.dyolmart.FindnextPage.Findnextpage_Spares$1
@@ -481,33 +447,57 @@ com/dyolmart/FindnextPage/Findnextpage_Spares.java
  com.dyolmart.FindnextPage.Findnextpage_Spares$4
  com.dyolmart.FindnextPage.Findnextpage_Spares$4$1
  com.dyolmart.FindnextPage.Findnextpage_Spares$ViewPagerAdapter
-com/dyolmart/ViewHoler/ViewHolder_Mobile.java
- com.dyolmart.ViewHoler.ViewHolder_Mobile
- com.dyolmart.ViewHoler.ViewHolder_Mobile$1
- com.dyolmart.ViewHoler.ViewHolder_Mobile$myview
-com/dyolmart/ViewHoler/ViewHolder_Watches.java
- com.dyolmart.ViewHoler.ViewHolder_Watches
- com.dyolmart.ViewHoler.ViewHolder_Watches$1
- com.dyolmart.ViewHoler.ViewHolder_Watches$myview
-com/dyolmart/FindnextPage/Findnextpage_Sports.java
- com.dyolmart.FindnextPage.Findnextpage_Sports
- com.dyolmart.FindnextPage.Findnextpage_Sports$1
- com.dyolmart.FindnextPage.Findnextpage_Sports$2
- com.dyolmart.FindnextPage.Findnextpage_Sports$3
- com.dyolmart.FindnextPage.Findnextpage_Sports$3$1
- com.dyolmart.FindnextPage.Findnextpage_Sports$4
- com.dyolmart.FindnextPage.Findnextpage_Sports$4$1
- com.dyolmart.FindnextPage.Findnextpage_Sports$ViewPagerAdapter
-com/dyolmart/FindnextPage/Findnextpage_Watches.java
- com.dyolmart.FindnextPage.Findnextpage_Watches
- com.dyolmart.FindnextPage.Findnextpage_Watches$1
- com.dyolmart.FindnextPage.Findnextpage_Watches$2
- com.dyolmart.FindnextPage.Findnextpage_Watches$3
- com.dyolmart.FindnextPage.Findnextpage_Watches$3$1
- com.dyolmart.FindnextPage.Findnextpage_Watches$4
- com.dyolmart.FindnextPage.Findnextpage_Watches$4$1
- com.dyolmart.FindnextPage.Findnextpage_Watches$ViewPagerAdapter
-com/dyolmart/ViewHoler/ViewHolder_Sports.java
- com.dyolmart.ViewHoler.ViewHolder_Sports
- com.dyolmart.ViewHoler.ViewHolder_Sports$1
- com.dyolmart.ViewHoler.ViewHolder_Sports$myview
+com/dyolmart/AllCatalogue/Home_Sports.java
+ com.dyolmart.AllCatalogue.Home_Sports
+ com.dyolmart.AllCatalogue.Home_Sports$1
+ com.dyolmart.AllCatalogue.Home_Sports$2
+com/dyolmart/Customer_Login.java
+ com.dyolmart.Customer_Login
+ com.dyolmart.Customer_Login$1
+ com.dyolmart.Customer_Login$2
+ com.dyolmart.Customer_Login$2$1
+ com.dyolmart.Customer_Login$3
+com/dyolmart/AdpterClass/CustomAdapter_Recycle.java
+ com.dyolmart.AdpterClass.CustomAdapter_Recycle
+ com.dyolmart.AdpterClass.CustomAdapter_Recycle$viewHolder
+com/dyolmart/FragmentPages/Fragment_Mynotification.java
+ com.dyolmart.FragmentPages.Fragment_Mynotification
+com/dyolmart/AllCatalogue/Home_Shoes.java
+ com.dyolmart.AllCatalogue.Home_Shoes
+ com.dyolmart.AllCatalogue.Home_Shoes$1
+ com.dyolmart.AllCatalogue.Home_Shoes$2
+com/dyolmart/FindnextPage/Findnextpage_Accessories.java
+ com.dyolmart.FindnextPage.Findnextpage_Accessories
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$1
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$2
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$3
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$3$1
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$4
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$4$1
+ com.dyolmart.FindnextPage.Findnextpage_Accessories$ViewPagerAdapter
+com/dyolmart/OrderDetailsActivity.java
+ com.dyolmart.OrderDetailsActivity
+ com.dyolmart.OrderDetailsActivity$1
+ com.dyolmart.OrderDetailsActivity$2
+com/dyolmart/MyAddressesActivity.java
+ com.dyolmart.MyAddressesActivity
+ com.dyolmart.MyAddressesActivity$1
+ com.dyolmart.MyAddressesActivity$2
+ com.dyolmart.MyAddressesActivity$3
+com/dyolmart/Payment_Form.java
+ com.dyolmart.Payment_Form
+ com.dyolmart.Payment_Form$1
+ com.dyolmart.Payment_Form$2
+com/dyolmart/ViewHoler/RecyclerHolder.java
+ com.dyolmart.ViewHoler.RecyclerHolder
+ com.dyolmart.ViewHoler.RecyclerHolder$1
+ com.dyolmart.ViewHoler.RecyclerHolder$myview
+com/dyolmart/RazorPay_Form.java
+ com.dyolmart.RazorPay_Form
+ com.dyolmart.RazorPay_Form$1
+ com.dyolmart.RazorPay_Form$2
+ com.dyolmart.RazorPay_Form$2$1
+ com.dyolmart.RazorPay_Form$2$2
+ com.dyolmart.RazorPay_Form$3
+ com.dyolmart.RazorPay_Form$4
+ com.dyolmart.RazorPay_Form$SendSms

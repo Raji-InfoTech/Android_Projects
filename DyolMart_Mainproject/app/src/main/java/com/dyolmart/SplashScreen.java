@@ -59,17 +59,6 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 boolean InternetResult = checkConnection();
-
-//                SharedPreferences pref = getSharedPreferences("ActivityPREF", Context.MODE_PRIVATE);
-//                if (pref.getBoolean("activity_executed", false)) {
-//                    if (InternetResult) {
-//                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-//                        startActivity(intent);
-//                        finish();
-//                    } else {
-//                        DialogAppear();
-//                    }
-//                } else {
                 Intent i = new Intent(getApplicationContext(), com.dyolmart.MainActivity.class);
                 startActivity(i);
                 finish();
@@ -112,7 +101,6 @@ public class SplashScreen extends AppCompatActivity {
     private boolean checkConnection() {
 
         if (isOnline()){
-           // Toast.makeText(getApplicationContext(),"Network connected:"+InternetCheck, Toast.LENGTH_SHORT).show();
             return InternetCheck;
         }
         else {
@@ -125,7 +113,6 @@ public class SplashScreen extends AppCompatActivity {
         assert cm != null;
         @SuppressLint("MissingPermission") NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()){
-           // Toast.makeText(getApplicationContext(),"Network connected...", Toast.LENGTH_SHORT).show();
             return true;
         }
         else {
@@ -139,8 +126,7 @@ public class SplashScreen extends AppCompatActivity {
         Animation anim = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);
         anim.reset();
         LinearLayout l=(LinearLayout) findViewById(R.id.in_le);
-//        l.setBackgroundColor(R.color.background);
-        //l.setBackgroundResource(R.color.background);
+
 
         l.clearAnimation();
         l.startAnimation(anim);

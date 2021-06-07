@@ -52,6 +52,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Price"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="#000000"
              />
        <TextView
@@ -72,6 +73,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:text="Delivery"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/total_items" />
@@ -83,6 +85,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:text="Rs. 49999/-"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="#000000"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider6" />
@@ -94,6 +97,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:text="Free"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="@color/Green"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/total_items_price" />
@@ -116,6 +120,7 @@
             android:layout_marginTop="8dp"
             android:text="Total Amount"
             android:textColor="#000000"
+            android:textSize="@dimen/text_size_xmedium"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider7" />
@@ -127,6 +132,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:text="Rs. 49999/-"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="#000000"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"

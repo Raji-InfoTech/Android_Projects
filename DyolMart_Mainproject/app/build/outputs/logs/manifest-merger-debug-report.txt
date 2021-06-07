@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
-INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
-INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
-INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\3144a40448927ef3210835a2f69512b9\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.basgeekball:awesome-validation:4.2] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\a6edbcf1933949c6968b7623a56f09b7\jetified-awesome-validation-4.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\cd6f2caba378d66250797e09d6bb24e0\material-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -85,16 +85,16 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\HDS\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\108ec4d3697c46900f7718a8c101df12\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\7bb25a4f6f211f0fd403b91af1b9692f\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\1f6b045666a31134b82a56c243bf4255\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
-INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
-INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
 	package
 		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:5:5-27
 		INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
 		INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
 		INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:4:5-51
@@ -102,7 +102,7 @@ INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:1
 		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-103:12
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:1-102:12
 		INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:2:11-69
@@ -217,7 +217,7 @@ ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:30:5-40
 	dist:instant
 		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:30:18-37
 application
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:32:5-101:19
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:32:5-100:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\cd6f2caba378d66250797e09d6bb24e0\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\cd6f2caba378d66250797e09d6bb24e0\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\HDS\.gradle\caches\transforms-2\files-2.1\1b47bb01ecc6aa52d262badcce0bb4ed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -408,74 +408,70 @@ activity#com.dyolmart.MyAddressesActivity
 ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:71:9-57
 	android:name
 		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:71:19-54
-activity#com.dyolmart.ReviewRating
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:72:9-50
-	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:72:19-47
 activity#com.dyolmart.AddAddressActivity
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:73:9-56
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:72:9-56
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:73:19-53
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:72:19-53
 activity#com.dyolmart.RazorPay_Form
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:74:9-51
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:73:9-51
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:74:19-48
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:73:19-48
 activity#com.dyolmart.Payment_Form
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:75:9-50
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:74:9-50
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:75:19-47
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:74:19-47
 activity#com.dyolmart.Findnextpage_Mycart
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:76:9-57
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:75:9-57
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:76:19-54
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:75:19-54
 activity#com.dyolmart.GrantPermission
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:77:9-53
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:76:9-53
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:77:19-50
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:76:19-50
 activity#com.dyolmart.RequestPermissionWarning
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:78:9-62
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:77:9-62
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:78:19-59
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:77:19-59
 activity#com.dyolmart.OTP_verifyform
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:79:9-81:59
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:78:9-80:59
 	android:theme
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:81:13-56
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:80:13-56
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:80:13-43
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:79:13-43
 activity#com.dyolmart.Customer_Login
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:82:9-84:59
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:81:9-83:59
 	android:theme
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:84:13-56
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:83:13-56
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:83:13-43
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:82:13-43
 activity#com.dyolmart.MainActivity
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:85:9-87:59
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:84:9-86:59
 	android:theme
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:87:13-56
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:86:13-56
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:86:13-41
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:85:13-41
 activity#com.dyolmart.SplashScreen
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:88:9-96:20
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:87:9-95:20
 	android:theme
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:90:13-56
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:89:13-56
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:89:13-41
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:88:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:91:13-95:29
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:90:13-94:29
 action#android.intent.action.MAIN
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:92:17-69
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:91:17-69
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:92:25-66
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:91:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:94:17-77
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:93:17-77
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:94:27-74
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:93:27-74
 meta-data#com.razorpay.ApiKey
-ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:98:9-100:55
+ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:97:9-99:55
 	android:value
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:100:13-52
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:99:13-52
 	android:name
-		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:99:13-47
+		ADDED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml:98:13-47
 uses-sdk
 INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\DyolMart_Mainproject\app\src\main\AndroidManifest.xml

@@ -21,10 +21,11 @@
     <TextView
         android:id="@+id/product_title"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="16dp"
+        android:textSize="@dimen/text_size_xmedium"
         android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/product_image"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,10 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         android:text="Rs. 49999/-"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_size_xmedium"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/product_image"
         app:layout_constraintStart_toStartOf="parent" />
@@ -51,8 +52,9 @@
         android:id="@+id/product_quantity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/border_background"
+        android:textSize="@dimen/text_size_xmedium"
         android:backgroundTint="#000000"
         android:padding="3dp"
         android:textColor="#000000"
@@ -164,7 +166,7 @@
         android:layout_marginStart="8dp"
         android:text="Ordered "
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/ordered_indicator"
         app:layout_constraintStart_toEndOf="@+id/ordered_indicator"
         app:layout_constraintTop_toTopOf="@+id/ordered_indicator" />
@@ -174,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/ordered_title"
         app:layout_constraintStart_toEndOf="@+id/ordered_title"
         app:layout_constraintTop_toTopOf="@+id/ordered_title"
@@ -187,7 +189,7 @@
         android:layout_marginTop="8dp"
         android:text="Your order has been Placed"
         android:textColor="#000000"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/ordered_title"
         app:layout_constraintTop_toBottomOf="@+id/ordered_title" />
 
@@ -198,7 +200,7 @@
         android:layout_marginStart="8dp"
         android:text="Packed"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/packed_indicator"
         app:layout_constraintStart_toEndOf="@+id/packed_indicator"
         app:layout_constraintTop_toTopOf="@+id/packed_indicator" />
@@ -222,7 +224,7 @@
         android:layout_marginTop="8dp"
         android:text="Your order has been Packed"
         android:textColor="#000000"
-        android:textSize="10sp"
+        android:textSize="12sp"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="@+id/packed_title"
         app:layout_constraintTop_toBottomOf="@+id/packed_title" />
@@ -234,7 +236,7 @@
         android:layout_marginStart="8dp"
         android:text="Shipping"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/shipping_indicator"
         app:layout_constraintStart_toEndOf="@+id/shipping_indicator"
         app:layout_constraintTop_toTopOf="@+id/shipping_indicator" />
@@ -245,7 +247,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text=""
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/shipping_title"
         app:layout_constraintStart_toEndOf="@+id/shipping_title"
         app:layout_constraintTop_toTopOf="@+id/shipping_title" />
@@ -258,7 +260,7 @@
         android:text="Your order has been Shipped"
         android:visibility="invisible"
         android:textColor="#000000"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/shipping_title"
         app:layout_constraintTop_toBottomOf="@+id/shipping_title" />
 
@@ -269,7 +271,7 @@
         android:layout_marginStart="8dp"
         android:text="Delivered "
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/delivered_indicator"
         app:layout_constraintStart_toEndOf="@+id/delivered_indicator"
         app:layout_constraintTop_toTopOf="@+id/delivered_indicator" />
@@ -280,7 +282,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text=""
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="@+id/delivered_title"
         app:layout_constraintStart_toEndOf="@+id/delivered_title"
         app:layout_constraintTop_toTopOf="@+id/delivered_title" />
@@ -293,7 +295,7 @@
         android:text="Your order has been Delivered"
         android:visibility="invisible"
         android:textColor="#000000"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/delivered_title"
         app:layout_constraintTop_toBottomOf="@+id/delivered_title" />
 
@@ -308,57 +310,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/delivered_body" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="Your ratings"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Divider" />
-
-    <View
-        android:id="@+id/Divider"
-        android:layout_width="0dp"
-        android:layout_height="1dp"
-        android:layout_marginTop="40dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/textView13"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/delivered_indicator" />
 
     <LinearLayout
-        android:id="@+id/rate_now_container"
+        android:id="@+id/invoice"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="40dp"
         android:layout_marginEnd="16dp"
         android:orientation="horizontal"
         android:gravity="center"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13">
+        app:layout_constraintTop_toBottomOf="@+id/divider10">
 
-        <RatingBar
-            android:id="@+id/rating"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:numStars="5"
-            android:stepSize="1"
-            android:theme="@style/RatingBar"/>
+        <ImageView
+            android:id="@+id/img_invoice"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/invoice"/>
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:textSize="16sp"
-            android:id="@+id/ratingcount"
-            android:visibility="invisible"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invoice"
+            android:textSize="@dimen/text_size_xmedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_invoice"
+            app:layout_constraintStart_toEndOf="@+id/img_invoice"
+            app:layout_constraintTop_toTopOf="@+id/img_invoice"/>
 
     </LinearLayout>
 

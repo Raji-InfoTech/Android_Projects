@@ -29,6 +29,7 @@
         android:layout_marginTop="16dp"
         android:text="Sumsung S10 (Black, 128 GB)"
         android:textColor="@color/black"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintEnd_toStartOf="@+id/product_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintVertical_chainStyle="spread_inside"
@@ -158,18 +159,5 @@
         app:layout_constraintStart_toEndOf="@+id/order_indicator"
         app:layout_constraintTop_toTopOf="@+id/order_indicator" />
 
-    <TextView
-        android:id="@+id/holdreview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Write a Review \n"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="16dp"
-        android:textColor="@color/purple_500"
-        android:visibility="invisible"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/order_delivered_date"
-        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,7 +30,7 @@
         android:backgroundTint="@color/colorPrimary"
         android:text="View All"
         android:textColor="@color/colorAccent"
-        android:textSize="12sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,30 +47,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/grid_product_layout_title">
-
-        <!--<include
-            layout="@layout/horizontal_scroll_item_layout"
-            android:layout_width="198dp"
-            app:layout_columnWeight="1"
-            android:layout_height="wrap_content" />
-
-        <include
-            layout="@layout/horizontal_scroll_item_layout"
-            android:layout_width="198dp"
-            app:layout_columnWeight="1"
-            android:layout_height="wrap_content" />
-
-        <include
-            layout="@layout/horizontal_scroll_item_layout"
-            android:layout_width="198dp"
-            app:layout_columnWeight="1"
-            android:layout_height="wrap_content" />
-
-        <include
-            layout="@layout/horizontal_scroll_item_layout"
-            android:layout_width="198dp"
-            app:layout_columnWeight="1"
-            android:layout_height="wrap_content" />-->
 
 
     </GridLayout>

@@ -41,8 +41,9 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
+                android:textSize="@dimen/text_size_xmedium"
                 android:ems="10"
-                android:hint="City*"
+                android:hint="City"
                 android:inputType="textPersonName"
                 android:textColor="@color/black" />
 
@@ -61,10 +62,11 @@
                 android:layout_marginEnd="16dp"
                 android:ems="10"
                 android:gravity="start"
-                android:hint="Locality, Area or Street*"
+                android:textSize="@dimen/text_size_xmedium"
+                android:hint="Locality, Area or Street"
                 android:inputType="textMultiLine"
                 android:isScrollContainer="true"
-                android:lines="3"
+                android:lines="2"
                 android:textColor="@color/black" />
 
             <EditText
@@ -76,10 +78,11 @@
                 android:layout_marginEnd="16dp"
                 android:ems="10"
                 android:gravity="start"
+                android:textSize="@dimen/text_size_xmedium"
                 android:hint="Flat No., Building Name*"
                 android:inputType="textMultiLine"
                 android:isScrollContainer="true"
-                android:lines="3"
+                android:lines="2"
                 android:textColor="@color/black" />
 
             <LinearLayout
@@ -95,7 +98,8 @@
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
-                    android:hint="Pincode*"
+                    android:textSize="@dimen/text_size_xmedium"
+                    android:hint="Pincode"
                     android:inputType="number"
                     android:textColor="@color/black" />
 
@@ -105,8 +109,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="16dp"
+                    android:textSize="@dimen/text_size_xmedium"
                     android:layout_weight="1"
-                    android:hint="State*"
+                    android:hint="State"
                     android:inputType="textPersonName"
                     android:textColor="@color/black" />
 
@@ -121,7 +126,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:hint="Landmark(Optional)"
+                android:textSize="@dimen/text_size_xmedium"
+                android:hint="Landmark"
                 android:inputType="textPersonName"
                 android:textColor="@color/black" />
 
@@ -141,7 +147,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:hint="Name*"
+                android:hint="Name"
+                android:textSize="@dimen/text_size_xmedium"
                 android:inputType="textPersonName"
                 android:textColor="@color/black" />
 
@@ -153,17 +160,16 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:hint="Mobile No*"
+                android:hint="Mobile No"
+                android:textSize="@dimen/text_size_xmedium"
                 android:inputType="number"
                 android:textColor="@color/black" />
             <TextView
                 android:id="@+id/mobile_no1"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:hint="Mobile No*"
                 android:visibility="invisible"
                 android:textColor="@color/black" />
-
 
             <EditText
                 android:id="@+id/alternate_mobile_no"
@@ -173,7 +179,8 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
                 android:layout_weight="1"
-                android:hint="Alternate Mobile No.(Optional)"
+                android:textSize="@dimen/text_size_xmedium"
+                android:hint="Alternate Mobile No"
                 android:inputType="number"
                 android:textColor="@color/black" />
 
@@ -182,6 +189,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_margin="16dp"
+                android:textSize="16sp"
                 android:backgroundTint="@color/colorPrimary"
                 android:text="SAVE"
                 android:textColor="@color/colorAccent" />

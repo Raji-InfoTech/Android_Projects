@@ -130,7 +130,7 @@ public class Findnextpage_Accessories extends AppCompatActivity {
                     rating.putString( "Rating4",Rating4);
                     rating.putString( "Rating5",Rating5);
                     rating.commit();
-                    //System.out.println (Rating1+Rating2 );
+
 
 
                 }

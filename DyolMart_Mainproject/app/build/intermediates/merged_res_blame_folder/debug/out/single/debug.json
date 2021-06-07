@@ -72,16 +72,16 @@
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-hdpi\\star.png"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_data_layout.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\profile_data_layout.xml"
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mynotification.xml.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\fragment_mynotification.xml"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_images_layout1.xml.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\product_images_layout1.xml"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mynotification.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\fragment_mynotification.xml"
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_data_layout.xml.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\profile_data_layout.xml"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_beauty.png.flat",
@@ -140,16 +140,16 @@
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\ic_baseline_shopping_basket_24.xml"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.png.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\share.png"
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_ractangle_rounded_stroke.xml.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\bg_ractangle_rounded_stroke.xml"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_splashimg.png.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-xxhdpi\\splashimg.png"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_ractangle_rounded_stroke.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\bg_ractangle_rounded_stroke.xml"
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share.png.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\share.png"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_drop_down_arrow.png.flat",
@@ -232,6 +232,10 @@
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-mdpi\\toys.png"
     },
     {
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_invoice_bg.xml.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\invoice_bg.xml"
+    },
+    {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_profile_placeholder.png.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-mdpi\\profile_placeholder.png"
     },
@@ -246,6 +250,10 @@
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checkable_click.xml.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\checkable_click.xml"
+    },
+    {
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\drawable_invoice.jpg.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\invoice.jpg"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\menu_home_screen_drawer.xml.flat",
@@ -264,12 +272,12 @@
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\fragment_findspec.xml"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_spareparts.jpg.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-xxhdpi\\spareparts.jpg"
-    },
-    {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_home_lappc.xml.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\home_lappc.xml"
+    },
+    {
+        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_spareparts.jpg.flat",
+        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-xxhdpi\\spareparts.jpg"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_home__books.xml.flat",
@@ -334,10 +342,6 @@
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_home_screen.xml.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\nav_header_home_screen.xml"
-    },
-    {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notify_prof.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\fragment_notify_prof.xml"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_toys.png.flat",
@@ -692,10 +696,6 @@
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\grid_product_layout1.xml"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_offerzone.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\fragment_offerzone.xml"
-    },
-    {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_toys.png.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-xxhdpi\\toys.png"
     },
@@ -810,10 +810,6 @@
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_addresses_item_layout.xml.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\addresses_item_layout.xml"
-    },
-    {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reviewrating.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\activity_reviewrating.xml"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_last.PNG.flat",
@@ -944,10 +940,6 @@
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\drawable\\cod_indicator.png"
     },
     {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_hypercoins.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\fragment_hypercoins.xml"
-    },
-    {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bin.png.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\mipmap-hdpi\\bin.png"
     },
@@ -1002,10 +994,6 @@
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_shipping_address_details_layout.xml.flat",
         "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\shipping_address_details_layout.xml"
-    },
-    {
-        "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\layout_ratings_layout.xml.flat",
-        "source": "E:\\DyolMart_Mainproject\\app\\src\\main\\res\\layout\\ratings_layout.xml"
     },
     {
         "merged": "E:\\DyolMart_Mainproject\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_spareparts.jpg.flat",

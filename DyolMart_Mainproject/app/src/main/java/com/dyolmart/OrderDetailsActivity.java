@@ -2,15 +2,18 @@ package com.dyolmart;
 
 
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -31,13 +34,13 @@ import com.google.firebase.database.ValueEventListener;
 public class OrderDetailsActivity extends AppCompatActivity {
     ImageView img,image_Ordered,image_Packed,image_Shipping,image_delivered;
     ProgressBar progress_Ordered,progress_Packed,progress_shipping;
-    TextView textView,txttitle,prices,name,address,phonenumber,pincode,totprices,txttotprice,address_flatno,alterphone,address_city,ordered_date,address_state,
+    TextView txttitle,prices,name,address,phonenumber,pincode,totprices,txttotprice,address_flatno,alterphone,address_city,ordered_date,address_state,
              txtpacked,txtshipped,txtdelivered,txtqty;
-    RatingBar ratingBar;
-    float ratevalue;
-    String ratingbar1,ratingbar2,ratingbar3,ratingbar4,ratingbar5,txttle,shop_id;
+
+
+    String txttle,shop_id,order_id,payment_mode;
     DatabaseReference databaseReference;
-    Button button;
+    LinearLayout ll;
      @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,9 +64,8 @@ public class OrderDetailsActivity extends AppCompatActivity {
         totprices=findViewById(R.id.total_items_price);
         txttotprice=findViewById(R.id.total_price);
         ordered_date=findViewById (R.id.ordered_date);
-        ratingBar= findViewById(R.id.rating);
-        textView= findViewById(R.id.ratingcount);
         txtqty=findViewById(R.id.product_quantity);
+        ll=findViewById(R.id.invoice);
 
         txttle=getIntent().getStringExtra("bname");
         txttitle.setText(txttle);
@@ -88,6 +90,7 @@ public class OrderDetailsActivity extends AppCompatActivity {
         String Phonenumber=getIntent().getStringExtra("phone");
         phonenumber.setText(Phonenumber);
         String date=getIntent().getStringExtra("date");
+        String customeradd= Name+"\n"+Address+"\n"+flat+"\n"+citys+"\n"+states+","+Pincode+"\n"+Phonenumber;
         ordered_date.setText(date);
         String qty=getIntent().getStringExtra("qty");
         txtqty.setText("Qty : "+qty);
@@ -97,45 +100,6 @@ public class OrderDetailsActivity extends AppCompatActivity {
         String value = sharedPref.getString("value","");
         System.out.println("printed"+value);
 
-       /* databaseReference = firebaseDatabase.getReference("Test2/Accessories");
-        query=databaseReference.orderByChild("Brand_Name").equalTo(txttle);*/
-
-        //Rating count
-
-        SharedPreferences sharedPreferences =getApplicationContext(). getSharedPreferences("Ratingvalues", MODE_PRIVATE);
-         ratingbar1 = sharedPreferences.getString("Rating1","");
-         ratingbar2 = sharedPreferences.getString("Rating2","");
-         ratingbar3 = sharedPreferences.getString("Rating3","");
-         ratingbar4 = sharedPreferences.getString("Rating4","");
-         ratingbar5 = sharedPreferences.getString("Rating5","");
-         // System.out.println ("karthik"+ratingbar1 );
-
-        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
-            @Override
-            public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-                ratevalue = ratingBar.getRating();
-                int name = Math.round(ratevalue);
-                textView.setText( name+"");
-               /*
-                query.addValueEventListener (new ValueEventListener ( ) {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        DatabaseReference db=databaseReference.child ("Rating_1");
-                        db.setValue (name, new DatabaseReference.CompletionListener ( ) {
-                            @Override
-                            public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
-                                Toast.makeText (OrderDetailsActivity.this, "updatesuccess", Toast.LENGTH_SHORT).show ( );
-                            }
-                        });
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-
-                    }
-                });*/
-            }
-        });
 
         //Tracking Process
 
@@ -149,8 +113,7 @@ public class OrderDetailsActivity extends AppCompatActivity {
         progress_shipping=findViewById(R.id.shipping_delivered_progress);
         txtpacked=findViewById(R.id.packed_body);
         txtshipped=findViewById(R.id.shipping_body);
-        txtdelivered=findViewById(R.id.ordered_body);
-        button=findViewById(R.id.btn_invoice);
+        txtdelivered=findViewById(R.id.delivered_body);
         databaseReference=FirebaseDatabase.getInstance().getReference().child("Customer_Details/Order_Details");
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
@@ -160,6 +123,8 @@ public class OrderDetailsActivity extends AppCompatActivity {
                     String s = prdct.getStatus();
                     String bname=prdct.getBname();
                     String login_id=prdct.getFor_me();
+                    order_id=prdct.getOrder_number();
+                    payment_mode=prdct.getPayment_method();
                     if(login_id.equals(value) && bname.equals(txttle) && s.equals("Order-Packed")){
                         progress_Ordered.getProgressDrawable().setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_IN);
                         image_Packed.setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_IN);
@@ -183,7 +148,7 @@ public class OrderDetailsActivity extends AppCompatActivity {
                         progress_shipping.getProgressDrawable().setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_IN);
                         image_delivered.setColorFilter(Color.GREEN, PorterDuff.Mode.SRC_IN);
                         txtdelivered.setVisibility(View.VISIBLE);
-                        button.setVisibility(View.VISIBLE);
+                        ll.setVisibility(View.VISIBLE);
                     }
                 }
 
@@ -195,6 +160,21 @@ public class OrderDetailsActivity extends AppCompatActivity {
             }
         });
 
+        ll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(),Invoice.class);
+                i.putExtra("order_id",order_id);
+                i.putExtra("order_date",date);
+                i.putExtra("shop_id",shop_id);
+                i.putExtra("customer_add",customeradd);
+                i.putExtra("product_name",txttle);
+                i.putExtra("quantity",qty);
+                i.putExtra("price",price);
+                i.putExtra("Payment_Mode",payment_mode);
+                startActivity(i);
+            }
+        });
 
     }
 

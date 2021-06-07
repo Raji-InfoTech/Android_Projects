@@ -52,7 +52,7 @@
                             android:layout_weight="5"
                             android:layout_margin="2dp"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             android:layout_marginTop="6dp"
                             android:textAlignment="center"/>
 
@@ -95,7 +95,7 @@
                             android:textColor="@color/black"
                             android:gravity="center"
                             android:textAlignment="center"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             />
 
                     </LinearLayout>
@@ -133,7 +133,7 @@
                             android:layout_weight="5"
                             android:layout_margin="2dp"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             android:layout_marginTop="6dp"
                             android:textAlignment="center"/>
 
@@ -179,7 +179,7 @@
                             android:layout_weight="5"
                             android:layout_margin="2dp"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             android:layout_marginTop="6dp"
                             android:textAlignment="center"/>
 
@@ -221,7 +221,7 @@
                             android:textColor="@color/black"
                             android:gravity="center"
                             android:textAlignment="center"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                              />
 
                     </LinearLayout>
@@ -263,7 +263,7 @@
                             android:textColor="@color/black"
                             android:gravity="center"
                             android:textAlignment="center"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             />
 
                     </LinearLayout>
@@ -307,7 +307,7 @@
                             android:layout_weight="5"
                             android:layout_margin="2dp"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             android:layout_marginTop="6dp"
                             android:textAlignment="center"/>
 
@@ -350,7 +350,7 @@
                             android:text="@string/Books"
                             android:textAlignment="center"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             />
 
                     </LinearLayout>
@@ -393,7 +393,7 @@
                             android:text="@string/Sports"
                             android:textAlignment="center"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                              />
 
                     </LinearLayout>
@@ -443,7 +443,7 @@
                             android:textColor="@color/black"
                             android:gravity="center"
                             android:textAlignment="center"
-                            android:textSize="@dimen/text_size_large"
+                            android:textSize="@dimen/text_size_xmedium"
                             />
 
                     </LinearLayout>

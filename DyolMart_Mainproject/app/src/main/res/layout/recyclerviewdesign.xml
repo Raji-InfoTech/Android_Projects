@@ -27,7 +27,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="Pixel 2(Black)"
-        android:textSize="16sp"
+        android:textSize="14sp"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/product_image"
         app:layout_constraintTop_toTopOf="parent" />
@@ -82,30 +82,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:textColor="@color/Green"
-        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/product_image"
         app:layout_constraintTop_toBottomOf="@+id/product_title" />
 
-  <!--  <LinearLayout
-        android:id="@+id/remove_item_btn"
-        android:layout_width="0dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="40dp"
-        android:background="@color/colorAccent"
-        android:gravity="center"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/product_price">
-
-        <TextView
-            android:id="@+id/remove_mycart"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:drawableStart="@mipmap/bin"
-            android:drawablePadding="4dp"
-            android:gravity="center"
-            android:text="Remove item" />
-    </LinearLayout>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

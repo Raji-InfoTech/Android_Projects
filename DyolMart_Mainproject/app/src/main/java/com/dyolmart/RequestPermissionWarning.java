@@ -60,7 +60,6 @@ public class RequestPermissionWarning extends AppCompatActivity {
         TextView txtViewMsg = findViewById(R.id.txtMsg);
 
         inte= getIntent();
-       // Toast.makeText(RequestPermissionWarning.this,inte.getStringExtra("Permissions"),Toast.LENGTH_LONG).show();
         if (inte.getStringExtra("NeverAsk").equals("false")) {
             if (!checkPermissions(getApplicationContext())) {
 
@@ -90,7 +89,6 @@ public class RequestPermissionWarning extends AppCompatActivity {
                             break;
                     }
 
-                // Toast.makeText(RequestPermissionWarning.this,String.valueOf(str[i].lastIndexOf(".")),Toast.LENGTH_LONG).show();
                 if (!permission1.equals(""))
                     warning = warning + permission1;
                 if (!permission2.equals(""))
@@ -110,7 +108,6 @@ public class RequestPermissionWarning extends AppCompatActivity {
             else
             {
                 Log.d("sthree","pop fffff first");
-//                finish();
                 Intent intent = new Intent(getApplicationContext(),com.dyolmart.Customer_Login.class);
                 startActivity(intent);
             }
@@ -125,7 +122,6 @@ public class RequestPermissionWarning extends AppCompatActivity {
         btnOK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Toast.makeText(RequestPermissionWarning.this,"pop",Toast.LENGTH_LONG).show();
 
                 if (inte.getStringExtra("NeverAsk").equals("false")) {
                     if (!checkPermissions(getApplicationContext())) {
@@ -168,7 +164,7 @@ public class RequestPermissionWarning extends AppCompatActivity {
             result = ContextCompat.checkSelfPermission(c, p);
             if (result != PackageManager.PERMISSION_GRANTED) {
                 listPermissionsNeeded.add(p);
-              // Toast.makeText(RequestPermissionWarning.this,p,Toast.LENGTH_LONG).show();
+
             }
         }
 

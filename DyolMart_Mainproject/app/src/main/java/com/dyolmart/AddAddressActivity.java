@@ -36,7 +36,7 @@ public class    AddAddressActivity extends AppCompatActivity {
     EditText name,alternatemobileno,state,pincode,city,locality,flatno,landmark,codee,mobilenumber;
     Userhipper userhipper=new Userhipper();
     TextView textView;
-    AwesomeValidation awesomeValidation;
+    boolean isAllFieldsChecked = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,26 +68,33 @@ public class    AddAddressActivity extends AppCompatActivity {
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                isAllFieldsChecked = CheckAllFields();
+
+                if (isAllFieldsChecked) {
+                    databaseReference.addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                            databaseReference.child(userhipper.getGenerate ()).setValue(userhipper);
+                            Toast.makeText(com.dyolmart.AddAddressActivity.this, "Address Added", Toast.LENGTH_SHORT).show();
+                            Intent i = new Intent(getApplicationContext(), com.dyolmart.MyAddressesActivity.class);
+                            startActivity(i);
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                        }
+                    });
+                }
                 getvalue();
-                databaseReference.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        databaseReference.child(userhipper.getGenerate ()).setValue(userhipper);
-                        Toast.makeText(com.dyolmart.AddAddressActivity.this, "Address Added", Toast.LENGTH_SHORT).show();
-                        Intent i = new Intent(getApplicationContext(), com.dyolmart.MyAddressesActivity.class);
-                        startActivity(i);
-                    }
 
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                    }
-                });
 
             }
 
 
         });
+
     }
     private void getvalue(){
         userhipper.setName(name.getText().toString());
@@ -118,6 +125,54 @@ public class    AddAddressActivity extends AppCompatActivity {
         String newKey = "HyperMart"+ code;
         System.out.println("successfully"+newKey);
         return newKey;
+    }
+    private boolean CheckAllFields() {
+        if (name.length() == 0) {
+            name.setError("Name is required");
+            return false;
+        }
+
+        if (locality.length() == 0) {
+            locality.setError("Locality is required");
+            return false;
+        }
+
+        if (flatno.length() == 0) {
+            flatno.setError("FlatNo is required");
+            return false;
+        }
+
+        if (pincode.length() == 0) {
+            pincode.setError("Pincode is required");
+            return false;
+        }
+//        else if (etPassword.length() < 8) {
+//            etPassword.setError("Password must be minimum 8 characters");
+//            return false;
+//        }
+        if (state.length() == 0) {
+            state.setError("State is required");
+            return false;
+        }
+        if (mobilenumber.length() == 0) {
+            mobilenumber.setError("MobileNo is required");
+            return false;
+        }
+        if (alternatemobileno.length() == 0) {
+            alternatemobileno.setError("Alternate MobileNo is required");
+            return false;
+        }
+        if (city.length() == 0) {
+            city.setError("City is required");
+            return false;
+        }
+        if (landmark.length() == 0) {
+            landmark.setError("landmark is required");
+            return false;
+        }
+
+        // after all validation return true.
+        return true;
     }
 
 

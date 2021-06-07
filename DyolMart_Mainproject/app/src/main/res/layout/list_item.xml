@@ -72,17 +72,16 @@
                     android:layout_marginTop="8dp"
                     android:textColor="@color/Green"
                     android:textStyle="bold"
-                    android:textSize="15dp" />
+                    android:textSize="@dimen/text_size_xmedium"/>
 
                 <TextView
                     android:id="@+id/cod"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/cod"
-                    android:fontFamily="@font/open_sans_semibold"
                     android:layout_marginTop="8dp"
                     android:textColor="@color/black"
-                    android:textSize="12dp" />
+                    android:textSize="@dimen/text_size_xmedium" />
             </LinearLayout>
         </LinearLayout>
 </LinearLayout>

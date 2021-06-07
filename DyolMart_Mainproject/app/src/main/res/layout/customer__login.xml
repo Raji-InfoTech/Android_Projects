@@ -56,7 +56,7 @@
                 android:fontFamily="@font/open_sans_bold"
                 android:text="@string/logindetails"
                 android:textColor="@color/black"
-                android:textSize="@dimen/text_size_large"/>
+                android:textSize="@dimen/text_size_xmedium"/>
 
             <TextView
                 android:id="@+id/login_desc"
@@ -91,7 +91,7 @@
                     android:padding="16dp"
                     android:text="@string/country"
                     android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    android:textSize="@dimen/text_size_xmedium" />
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -115,7 +115,7 @@
                         android:padding="16dp"
                         android:hint="@string/loginhint"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="@dimen/text_size_xmedium"/>
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -155,6 +155,7 @@
                 android:layout_gravity="center"
                 android:fontFamily="@font/open_sans_semibold"
                 android:text="Working . . ."
+                android:textSize="@dimen/text_size_xmedium"
                 android:textColor="@color/purple_500"
                 android:visibility="invisible"
                 app:layout_constraintEnd_toEndOf="parent"

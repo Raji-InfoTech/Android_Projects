@@ -65,7 +65,6 @@ public class Payment_Form extends AppCompatActivity {
         System.out.println("printed_item_size"+item_size);
 
         // spinner coding
-
         SpOc = findViewById(R.id.product_quantity);
         List<String> catagories = new ArrayList<>();
         catagories.add("1");
@@ -89,6 +88,7 @@ public class Payment_Form extends AppCompatActivity {
                 total_items_price.setText("₹"+qty);
                 total_price.setText("₹"+qty);
                 quty_items.setText(sp+" items");
+
                 //shared coding
                 SharedPreferences sharedPref = getSharedPreferences("mydetailsamt", MODE_PRIVATE);
                 SharedPreferences.Editor editor = sharedPref.edit();

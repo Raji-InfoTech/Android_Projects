@@ -50,12 +50,6 @@ public class MyAddressesActivity extends AppCompatActivity {
         getSupportActionBar().setBackgroundDrawable(colorDrawable);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.back);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-       /* SharedPreferences sharedPreferences1 =getApplicationContext(). getSharedPreferences("mydetails", MODE_PRIVATE);
-        String value0 = sharedPreferences1.getString("img1","");
-        String value1 = sharedPreferences1.getString("bname1","");
-        String value2 = sharedPreferences1.getString("shopnum1","");
-        String value3 = sharedPreferences1.getString("bprice1","");*/
-
 
 
         textView24 = findViewById(R.id.textView24);
@@ -84,23 +78,7 @@ public class MyAddressesActivity extends AppCompatActivity {
                 editor.putString( "valueadd06", viewHolder.getSelected().getPincode());
                 editor.putString( "valueadd07",viewHolder.getSelected().getPhoneno());
                 editor.putString( "valueadd08",viewHolder.getSelected().getAltermbl());
-               /* editor.putString("img2",value0);
-                editor.putString("bname2",value1);
-                editor.putString("shopnum2",value2);
-                editor.putString("bprice2",value3);*/
                 editor.commit();
-               /* i.putExtra("Name",viewHolder.getSelected().getName());
-                i.putExtra("Locality",viewHolder.getSelected().getLocality() );
-                i.putExtra("Flatno",viewHolder.getSelected().getFlatno());
-                i.putExtra("City", viewHolder.getSelected().getCity());
-                i.putExtra("state", viewHolder.getSelected().getState());
-                i.putExtra("Pincode",  viewHolder.getSelected().getPincode());
-                i.putExtra("Mblnum",viewHolder.getSelected().getPhoneno() );
-                i.putExtra("alternum",  viewHolder.getSelected().getAltermbl());
-                i.putExtra("img01",value0);
-                i.putExtra("bname01",value1);
-                i.putExtra("shopnum01",value2);
-                i.putExtra("bprice01",value3);*/
                 startActivity(i);
 
             }

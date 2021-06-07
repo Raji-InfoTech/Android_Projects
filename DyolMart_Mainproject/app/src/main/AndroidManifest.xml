@@ -69,7 +69,6 @@
         <activity android:name=".AllCatalogue.Home_Sports" />
         <activity android:name=".AllCatalogue.Home_Watches" />
         <activity android:name=".MyAddressesActivity" />
-        <activity android:name=".ReviewRating" />
         <activity android:name=".AddAddressActivity" />
         <activity android:name=".RazorPay_Form" />
         <activity android:name=".Payment_Form" />

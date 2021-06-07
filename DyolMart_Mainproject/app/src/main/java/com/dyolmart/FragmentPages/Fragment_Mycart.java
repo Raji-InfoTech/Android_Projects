@@ -41,9 +41,6 @@ public class Fragment_Mycart extends Fragment {
         View root = inflater.inflate( R.layout.fragment_mycart, container, false);
 
         recyclerView = root.findViewById( R.id.my_rewards_recyclerview);
-       /* textView=root.findViewById (R.id.remove_mycart);*/
-
-
         SharedPreferences sharedPreferences =getContext(). getSharedPreferences("myKey", MODE_PRIVATE);
         String value = sharedPreferences.getString("value","");
         System.out.println("printed"+value);

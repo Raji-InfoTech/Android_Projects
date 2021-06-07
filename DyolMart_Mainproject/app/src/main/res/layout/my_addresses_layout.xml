@@ -23,18 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-   <!-- <Button
-        android:id="@+id/view_all_addresses_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:stateListAnimator="@null"
-        android:text="View All"
-        android:textColor="@color/colorPrimary"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
--->
+
     <TextView
         android:id="@+id/address_full_name"
         android:layout_width="wrap_content"
@@ -42,6 +31,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:hint="Full Name"
+        android:textSize="@dimen/text_size_xmedium"
         android:textColor="#000000"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +52,7 @@
             android:id="@+id/address"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_xmedium"
             android:hint="Address"
             android:textColor="#000000" />
 
@@ -70,6 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="#000000" />
 
         <TextView
@@ -77,6 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="3dp"
+            android:textSize="@dimen/text_size_xmedium"
             android:textColor="#000000" />
 
     </LinearLayout>
@@ -93,6 +86,7 @@
         android:id="@+id/state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_xmedium"
         android:textColor="#000000" />
     <TextView
         android:id="@+id/address_pincode"
@@ -100,7 +94,7 @@
         android:layout_height="wrap_content"
         android:hint="Pincode"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         android:textStyle="bold"
          />
 </LinearLayout>
@@ -113,7 +107,7 @@
         android:layout_marginBottom="16dp"
         android:hint="Phone Number"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -128,7 +122,7 @@
         android:layout_marginBottom="16dp"
         android:hint="Alter Number"
         android:textColor="#000000"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

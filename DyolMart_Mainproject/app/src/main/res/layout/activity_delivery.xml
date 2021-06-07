@@ -68,17 +68,16 @@
                 android:layout_height="wrap_content"
                 android:text="Rs. 49999/-"
                 android:textColor="#000000"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Total Amount"
                 android:textColor="#000000"
-
-                android:textStyle="bold" />
+                android:textSize="@dimen/text_size_xmedium"
+               />
 
 
         </LinearLayout>
@@ -90,6 +89,7 @@
             android:layout_weight="1"
             android:backgroundTint="@color/colorPrimary"
             android:text="Continue"
+            android:textSize="16sp"
             android:textColor="@color/colorAccent"
             android:textStyle="bold" />
 

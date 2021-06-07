@@ -58,7 +58,6 @@ public class Findnextpage_Watches extends AppCompatActivity {
         addcart=findViewById( R.id.text_addcart );
         customernum=findViewById( R.id.customermbl );
         shopnumber=findViewById( R.id.shopid );
-    //    itemtitlename=findViewById( R.id.item_name );
         S1 = findViewById( R.id.size1);
         S2 = findViewById( R.id.size2);
         S3 = findViewById( R.id.size3);
@@ -80,7 +79,6 @@ public class Findnextpage_Watches extends AppCompatActivity {
         String cient_shopnum=getIntent().getStringExtra( "Client_shopnumber" );
         String image=getIntent().getStringExtra( "imageurl" );
         itemName.setText( name);
-     //   itemtitlename.setText( name );
         itemPrice.setText( price );
         shopnumber.setText( cient_shopnum );
         SharedPreferences sharedPreferences =getApplicationContext(). getSharedPreferences("myKey", MODE_PRIVATE);

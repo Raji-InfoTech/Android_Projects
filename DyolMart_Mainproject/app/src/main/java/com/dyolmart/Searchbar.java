@@ -39,12 +39,6 @@ public class Searchbar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_searchbar);
-        /*getSupportActionBar().setTitle(R.string.app_name);
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#040f61"));
-        getSupportActionBar().setBackgroundDrawable(colorDrawable);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.back);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
-
         productsref = (DatabaseReference) FirebaseDatabase.getInstance().getReference().child("All_Products");
         recyclerView = findViewById( R.id.recyclerviewsearch1);
         searchView =  findViewById( R.id.Searchbar1);

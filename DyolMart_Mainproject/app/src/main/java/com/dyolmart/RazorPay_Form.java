@@ -1,6 +1,7 @@
 package com.dyolmart;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -18,6 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
@@ -54,7 +56,7 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
     DatabaseReference databaseReference;
     Userhipper userhipper=new Userhipper();
     RadioButton rdbrzpay,rbbcod;
-    String price,brandname,shopnumber, value0,value3,value1,value2,value4,value5;
+    String  value0,value3,value1,value2,value4,value5,Payment;
     ImageView img;
 
     //    RazorPay_Form
@@ -111,28 +113,6 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
         String s= simpleDateFormat.format(calendar.getTime());
         date.setText(s);
 
-      /*  full_name.setText(getIntent().getStringExtra("Name"));
-        address.setText(getIntent().getStringExtra("Locality"));
-        address_flatno.setText(getIntent().getStringExtra("Flatno"));
-        address_city.setText(getIntent().getStringExtra("City"));
-        address_state.setText(getIntent().getStringExtra("state"));
-        pincode.setText(getIntent().getStringExtra("Pincode"));
-        phone.setText(getIntent().getStringExtra("Mblnum"));
-        alterphone.setText(getIntent().getStringExtra("alternum"));*/
-
-        //order summary
-       /* price=getIntent().getStringExtra("bprice");
-        System.out.println("successprice"+price);
-        //images=getIntent().getStringExtra("img01");
-        brandname=getIntent().getStringExtra("bname");
-        shopnumber=getIntent().getStringExtra("shopnum");
-       // Glide.with(this).load(images).into(img);
-        Brandname.setText(brandname);
-        bprice.setText(price);
-        snum.setText(shopnumber);
-        total_price.setText(price);
-        total_items_price.setText(price);
-        text_qutyprice.setText(price);*/
 
         // Login_id sharedpreferences
         SharedPreferences sharedPreferences =getApplicationContext(). getSharedPreferences("myKey", MODE_PRIVATE);
@@ -150,9 +130,9 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
         value4 = sharedPreferences1.getString("qty_items","");
         value5 = sharedPreferences1.getString("item_Size","");
         System.out.println("printerddd"+value3);
-        total_price.setText(value3);
-        total_items_price.setText(value3);
-        text_qutyprice.setText(value3);
+        total_price.setText("₹"+value3);
+        total_items_price.setText("₹"+value3);
+        text_qutyprice.setText("₹"+value3);
         Glide.with(this).load(value0).into(img);
         Brandname.setText(value1);
         snum.setText(value2);
@@ -178,10 +158,11 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
         alterphone.setText(valueadd8);
 
 
-
         firebaseDatabase= FirebaseDatabase.getInstance();
         databaseReference = firebaseDatabase.getReference("Customer_Details/Order_Details");
         ordernumber.setText( generatenumber( ) );
+
+
 
         StrictMode.ThreadPolicy policy=new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy( policy );
@@ -189,8 +170,32 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
         imageView.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onRadioclickable();
-                SendSms.sendSms( value1+"order successfully" , phone.getText ().toString () );
+                AlertDialog.Builder builder = new AlertDialog.Builder(RazorPay_Form.this);
+
+                builder.setMessage("Are you sure to confirm your ordered?");
+
+
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        onRadioclickable();
+                        SendSms.sendSms( value1+"order successfully" , phone.getText ().toString () );
+                    }
+                });
+
+
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(getApplicationContext(),
+                                "Sorry! your ordered canceled",Toast.LENGTH_SHORT).show();
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+
+                dialog.show();
 
             }
 
@@ -208,12 +213,12 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
             }
 
             case R.id.radio_cod:{
+                Payment="Cash_On_Delivery";
                 getvalue();
                 databaseReference.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         databaseReference.child(userhipper.getOrder_number()+(userhipper.getBname())).setValue(userhipper);
-                        //Toast.makeText(com.dyolmart.RazorPay_Form.this, "Your Order Successful", Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(getApplicationContext(), HomeScreen.class);
                         startActivity(i);
                     }
@@ -265,7 +270,7 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
         userhipper.setDate(date.getText().toString());
         userhipper.setQty(value4);
         userhipper.setItem_Size(value5);
-        //Toast.makeText( Payment_Form.this,"Uploaded",Toast.LENGTH_LONG ).show();
+        userhipper.setPayment_method(Payment);
 
     }
 
@@ -341,7 +346,7 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
             options.put("description", "Demoing Charges");
             options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
             options.put("currency", "INR");
-            options.put("amount",total_price.getText().toString()+"00"  );
+            options.put("amount",value3+"00"  );
             JSONObject preFill = new JSONObject();
             preFill.put("email", "");
             preFill.put("contact", phone.getText().toString());
@@ -358,6 +363,7 @@ public class RazorPay_Form extends AppCompatActivity implements PaymentResultLis
     @Override
     public void onPaymentSuccess(String s) {
         try {
+            Payment="Online_Payment";
             getvalue();
             databaseReference.addValueEventListener(new ValueEventListener() {
                 @Override

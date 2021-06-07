@@ -31,7 +31,7 @@
         android:text="Redmi 5A"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="12sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/h_s_product_image" />
@@ -47,7 +47,7 @@
         android:text="SD 425 Processor"
         android:textAlignment="center"
         android:textColor="@color/Green"
-        android:textSize="10sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toTopOf="@+id/h_s_product_price"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +62,7 @@
         android:layout_marginBottom="8dp"
         android:text="Rs. 5999/-"
         android:textAlignment="center"
-        android:textSize="10sp"
+        android:textSize="@dimen/text_size_xmedium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
